@@ -10,8 +10,20 @@ bcrypt.genSalt(10, function(err, salt) {
         console.log(salt);
     });
 });
-
+//email test
+var mail = require('../config/mail');
+//mail.sendActiveMail('13240105904@163.com','aaa','test');
 //redis test
-
-
+var User= require('../models/db').User;
+var UserDao = require('../dao/userDao');
+var config = require('../config');
+var cache = require('../config/cache');
 // mongo test
+//User.newAndSave('aaaaa', 'test', '123456', 'aaa@aa.com', false, function (err) {
+//    if (err) {
+//        return next(err);
+//    }
+//    console.log('save user ok!');
+//});
+var user=User.findOne({'loginName': 'test'});
+console.log(user)

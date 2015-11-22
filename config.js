@@ -5,9 +5,10 @@
  */
 var path = require('path');
 var config = {
+    name: 'c5blog',
     // mongodb 配置
     db: 'mongodb://127.0.0.1/app',
-
+    debug: true,
     // redis 配置，默认是本地
     redis_host: '127.0.0.1',
     redis_port: 6379,
@@ -17,15 +18,15 @@ var config = {
     auth_cookie_name: 'node_club',
 
     // 程序运行的端口
-    host:'localhost',
+    host: 'localhost',
     port: 3000,
     // 邮箱配置
     mail_opts: {
-        host: 'smtp.126.com',
-        port: 25,
+        host: 'smtp.qq.com',
+        port: 465,
         auth: {
-            user: 'club@126.com',
-            pass: 'club'
+            user: '915881127@qq.com',
+            pass: '88mm0201'
         }
     },
     // 文件上传配置

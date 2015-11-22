@@ -258,3 +258,348 @@ Completed 200 [32m(41ms)[39m
 
 Started 2015-11-22T04:04:59.502Z GET /signup ::1
 Completed 304 [32m(12ms)[39m
+You can debug your app with http://:3000
+You can debug your app with http://:3000
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T07:59:52.202Z GET / ::1
+Completed 304 (33ms)
+
+
+Started 2015-11-22T07:59:53.878Z GET /signin ::1
+Completed 304 (16ms)
+
+
+Started 2015-11-22T08:00:18.857Z POST /signin ::1
+Completed 500 (25ms)
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T08:01:54.059Z POST /signin ::1
+Completed 500 (65ms)
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T08:04:10.549Z POST /signin ::1
+Completed 500 (82ms)
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T08:16:32.183Z GET / ::1
+Completed 304 [32m(42ms)[39m
+
+
+Started 2015-11-22T08:16:54.852Z GET /signin ::1
+Completed 304 [32m(16ms)[39m
+
+
+Started 2015-11-22T08:17:07.397Z POST /signin ::1
+Completed 500 [32m(49ms)[39m
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T08:18:43.654Z GET / ::1
+Completed 200 [32m(33ms)[39m
+
+
+Started 2015-11-22T08:18:45.660Z GET /signin ::1
+Completed 200 [32m(18ms)[39m
+
+
+Started 2015-11-22T08:18:53.344Z POST /signin ::1
+Completed 403 [32m(54ms)[39m
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T08:20:13.012Z POST /signin ::1
+Completed 500 [32m(82ms)[39m
+You can debug your app with http://:3000
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T08:23:22.081Z GET /signin ::1
+Completed 304 [32m(32ms)[39m
+
+
+Started 2015-11-22T08:23:28.485Z POST /signin ::1
+Completed 500 [32m(49ms)[39m
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T08:25:37.034Z POST /signin ::1
+Completed 403 [32m(100ms)[39m
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T08:30:27.770Z GET /signup ::1
+Completed 200 [32m(48ms)[39m
+
+
+Started 2015-11-22T08:30:55.754Z POST /signup ::1
+Completed 500 [32m(53ms)[39m
+You can debug your app with http://:3000
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T08:33:05.276Z POST /signup ::1
+Completed 500 [32m(57ms)[39m
+You can debug your app with http://:3000
+You can debug your app with http://:3000
+You can debug your app with http://:3000
+You can debug your app with http://:3000
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T08:37:11.040Z POST /signup ::1
+Completed 422 [32m(83ms)[39m
+
+
+Started 2015-11-22T08:37:56.720Z POST /signup ::1
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T08:37:58.667Z POST /signup ::ffff:127.0.0.1
+You can debug your app with http://:3000
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T08:39:11.627Z POST /signup ::1
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T08:39:13.489Z POST /signup ::ffff:127.0.0.1
+You can debug your app with http://:3000
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T10:23:14.606Z GET /signin ::1
+  Render view signin [32m(31ms)[39m
+Completed 304 [32m(45ms)[39m
+
+
+Started 2015-11-22T10:23:35.668Z POST /signin ::1
+  Render view index [32m(16ms)[39m
+Completed 403 [32m(62ms)[39m
+
+
+Started 2015-11-22T10:26:40.321Z GET /signin ::1
+  Render view signin [32m(4ms)[39m
+Completed 304 [32m(12ms)[39m
+
+
+Started 2015-11-22T10:26:46.947Z POST /signin ::1
+  Render view index [32m(5ms)[39m
+Completed 403 [32m(37ms)[39m
+You can debug your app with http://:3000
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T10:52:20.282Z GET /signin ::1
+  Render view signin [32m(20ms)[39m
+Completed 304 [32m(34ms)[39m
+
+
+Started 2015-11-22T10:52:27.362Z POST /signin ::1
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T10:52:29.250Z POST /signin ::1
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T10:53:37.064Z POST /signin ::1
+You can debug your app with http://:3000
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T10:55:39.203Z POST /signin ::1
+  Render view index [32m(29ms)[39m
+Completed 200 [32m(93ms)[39m
+
+
+Started 2015-11-22T10:55:43.614Z GET /signout ::1
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T10:57:39.080Z GET /signin ::ffff:127.0.0.1
+
+
+Started 2015-11-22T10:58:15.762Z GET /signout ::1
+
+
+Started 2015-11-22T10:58:32.650Z GET / ::1
+
+
+Started 2015-11-22T10:58:33.469Z GET / ::1
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T11:01:21.637Z GET /signin ::1
+
+
+Started 2015-11-22T11:01:59.591Z GET / ::1
+
+
+Started 2015-11-22T11:02:00.837Z GET / ::1
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T11:02:44.649Z GET / ::ffff:127.0.0.1
+  Render view index (32ms)
+Completed 200 (43ms)
+
+
+Started 2015-11-22T11:02:45.242Z GET /favicon.ico ::ffff:127.0.0.1
+Completed 404 (13ms)
+
+
+Started 2015-11-22T11:02:47.124Z GET /signin ::ffff:127.0.0.1
+  Render view signin (12ms)
+Completed 200 (16ms)
+
+
+Started 2015-11-22T11:02:53.662Z POST /signin ::ffff:127.0.0.1
+  Render view index (6ms)
+Completed 200 (48ms)
+
+
+Started 2015-11-22T11:02:57.115Z GET /signout ::ffff:127.0.0.1
+
+
+Started 2015-11-22T11:03:02.586Z GET /signout ::ffff:127.0.0.1
+
+
+Started 2015-11-22T11:03:03.649Z GET /signout ::ffff:127.0.0.1
+
+
+Started 2015-11-22T11:04:04.739Z GET /signout ::ffff:127.0.0.1
+
+
+Started 2015-11-22T11:04:27.907Z GET /signout ::ffff:127.0.0.1
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T11:29:35.316Z GET / ::1
+  Render view index (30ms)
+Completed 200 (43ms)
+
+
+Started 2015-11-22T11:29:37.362Z GET /signin ::1
+  Render view signin (12ms)
+Completed 200 (20ms)
+
+
+Started 2015-11-22T11:29:39.166Z POST /signin ::1
+  Render view index (3ms)
+Completed 200 (37ms)
+
+
+Started 2015-11-22T11:29:40.808Z GET /signout ::1
+
+
+Started 2015-11-22T11:30:34.203Z GET /signin ::1
+
+
+Started 2015-11-22T11:30:36.881Z GET /signin ::1
+
+
+Started 2015-11-22T11:30:40.050Z GET /signin ::1
+You can debug your app with http://:3000
+You can debug your app with http://:3000
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T14:49:27.740Z GET / ::1
+Completed 500 
+You can debug your app with http://:3000
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T14:51:34.981Z GET / ::1
+Completed 500 
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T14:53:40.210Z GET / ::1
+Completed 500 
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T14:54:39.372Z GET / ::1
+Completed 500 
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T14:55:09.665Z GET / ::1
+Completed 500 
+You can debug your app with http://:3000
+You can debug your app with http://:3000
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T15:02:19.291Z GET / ::1
+Completed 500 
+
+
+Started 2015-11-22T15:02:43.173Z GET / ::1
+  Render view index 
+Completed 200 
+
+
+Started 2015-11-22T15:03:01.646Z GET /signin ::1
+  Render view signin 
+Completed 200 
+
+
+Started 2015-11-22T15:03:05.212Z GET /signup ::1
+  Render view signup 
+Completed 200 
+
+
+Started 2015-11-22T15:03:08.067Z GET /signin ::1
+  Render view signin 
+Completed 304 
+
+
+Started 2015-11-22T15:03:09.704Z POST /signin ::1
+  Render view index 
+Completed 200 
+
+
+Started 2015-11-22T15:03:11.291Z GET /signout ::1
+Completed 302 
+
+
+Started 2015-11-22T15:03:11.298Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-22T15:03:19.660Z GET /signin ::1
+  Render view signin 
+Completed 200 
+
+
+Started 2015-11-22T15:03:20.880Z POST /signin ::1
+  Render view index 
+Completed 200 
+
+
+Started 2015-11-22T15:03:22.244Z GET /signout ::1
+Completed 302 
+
+
+Started 2015-11-22T15:03:22.248Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-22T15:03:23.645Z GET /signup ::1
+  Render view signup 
+Completed 304 
+
+
+Started 2015-11-22T15:03:25.330Z GET / ::1
+  Render view index 
+Completed 304 

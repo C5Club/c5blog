@@ -18,6 +18,7 @@ var sendMail = function (data) {
       // 写为日志
       console.log(err);
     }
+    console.log('send email success!---------')
   });
 };
 exports.sendMail = sendMail;
@@ -31,7 +32,7 @@ exports.sendMail = sendMail;
 exports.sendActiveMail = function (who, token, name) {
   var from    = util.format('%s <%s>', config.name, config.mail_opts.auth.user);
   var to      = who;
-  var subject = config.name + '社区帐号激活';
+  var subject = config.name + '帐号激活';
   var html    = '<p>您好：' + name + '</p>' +
     '<p>我们收到您在' + config.name + '的注册信息，请点击下面的链接来激活帐户：</p>' +
     '<a href  = "' + SITE_ROOT_URL + '/active_account?key=' + token + '&name=' + name + '">激活链接</a>' +
