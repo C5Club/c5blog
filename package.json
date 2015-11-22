@@ -20,7 +20,7 @@
         "cors": "2.5.0",
         "csurf": "1.6.2",
         "data2xml": "0.8.0",
-        "jade": "*",
+        "ejs": "*",
         "eventproxy": "0.3.1",
         "express": "4.9.5",
         "express-session": "1.9.1",

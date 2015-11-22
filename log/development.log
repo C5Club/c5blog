@@ -2,3 +2,259 @@ C5Club listening on port 3000
 You can debug your app with http://undefined:3000
 C5Club listening on port 3000
 You can debug your app with http://undefined:3000
+You can debug your app with http://:3000
+You can debug your app with http://:3000
+
+
+Started 2015-11-21T13:23:55.444Z GET / ::1
+Completed 500 (33ms)
+
+
+Started 2015-11-21T13:23:55.934Z GET /favicon.ico ::1
+Completed 404 (9ms)
+
+
+Started 2015-11-21T13:25:16.578Z GET / ::1
+Completed 500 (14ms)
+You can debug your app with http://:3000
+
+
+Started 2015-11-21T13:25:36.641Z GET / ::1
+Completed 500 (36ms)
+You can debug your app with http://:3000
+
+
+Started 2015-11-21T13:27:17.354Z GET / ::1
+Completed 500 (21ms)
+
+
+Started 2015-11-21T13:28:13.379Z GET / ::1
+Completed 500 (9ms)
+You can debug your app with http://:3000
+
+
+Started 2015-11-21T13:28:32.797Z GET / ::1
+Completed 500 (37ms)
+You can debug your app with http://:3000
+
+
+Started 2015-11-21T13:31:31.469Z GET / ::1
+Completed 500 (34ms)
+You can debug your app with http://:3000
+
+
+Started 2015-11-21T13:32:14.472Z GET / ::1
+Completed 500 (35ms)
+
+
+Started 2015-11-21T13:32:44.388Z GET / ::1
+Completed 500 (15ms)
+You can debug your app with http://:3000
+
+
+Started 2015-11-21T13:32:59.161Z GET / ::1
+Completed 500 (36ms)
+You can debug your app with http://:3000
+
+
+Started 2015-11-21T13:33:42.491Z GET / ::1
+Completed 200 (38ms)
+
+
+Started 2015-11-21T13:33:42.633Z GET /stylesheets/bootstrap.css ::1
+Completed 404 (9ms)
+
+
+Started 2015-11-21T13:33:42.661Z GET /stylesheets/bootstrap-responsive.css ::1
+
+
+Started 2015-11-21T13:33:42.663Z GET /javascripts/bootstrap.js ::1
+
+
+Started 2015-11-21T13:33:42.662Z GET /javascripts/jquery.js ::1
+Completed 404 (11ms)
+Completed 404 (12ms)
+Completed 404 (10ms)
+You can debug your app with http://:3000
+
+
+Started 2015-11-21T13:35:00.017Z GET / ::1
+Completed 200 (37ms)
+
+
+Started 2015-11-21T13:35:41.016Z GET / ::1
+Completed 304 (11ms)
+
+
+Started 2015-11-21T13:38:31.057Z GET / ::1
+Completed 200 (10ms)
+
+
+Started 2015-11-21T13:38:44.980Z GET /login ::1
+Completed 404 (3ms)
+You can debug your app with http://:3000
+
+
+Started 2015-11-21T14:01:00.964Z GET / ::1
+Completed 200 (39ms)
+
+
+Started 2015-11-21T14:01:02.888Z GET /reg ::1
+Completed 404 (8ms)
+
+
+Started 2015-11-21T14:02:49.048Z GET / ::1
+Completed 304 (22ms)
+
+
+Started 2015-11-21T14:02:52.200Z GET /reg ::1
+Completed 404 (3ms)
+You can debug your app with http://:3000
+
+
+Started 2015-11-21T14:03:06.373Z GET / ::1
+Completed 304 (32ms)
+
+
+Started 2015-11-21T14:03:07.855Z GET /reg ::1
+Completed 404 (9ms)
+
+
+Started 2015-11-21T14:09:03.545Z GET /reg ::1
+Completed 404 (3ms)
+You can debug your app with http://:3000
+
+
+Started 2015-11-21T14:09:15.764Z GET / ::1
+Completed 304 (32ms)
+
+
+Started 2015-11-21T14:09:17.457Z GET /reg ::1
+Completed 404 (10ms)
+
+
+Started 2015-11-21T14:09:30.534Z GET / ::1
+Completed 304 (11ms)
+
+
+Started 2015-11-21T14:10:17.211Z GET / ::1
+Completed 200 (14ms)
+
+
+Started 2015-11-21T14:10:21.239Z GET /signup ::1
+Completed 500 (13ms)
+
+
+Started 2015-11-21T14:11:32.552Z GET /signup ::1
+Completed 500 (12ms)
+
+
+Started 2015-11-21T14:11:34.909Z GET /signup ::1
+Completed 500 (4ms)
+
+
+Started 2015-11-21T14:11:37.863Z GET /signup ::1
+Completed 500 (5ms)
+You can debug your app with http://:3000
+
+
+Started 2015-11-21T14:11:50.878Z GET /signup ::1
+Completed 200 (39ms)
+You can debug your app with http://:3000
+You can debug your app with http://:3000
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T03:17:25.100Z GET / ::1
+Completed 500 [32m(19ms)[39m
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T03:18:47.896Z GET / ::1
+Completed 500 (18ms)
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T03:21:00.941Z GET / ::1
+Completed 500 (20ms)
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T03:27:13.062Z GET / ::1
+Completed 500 (20ms)
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T03:29:30.374Z GET / ::1
+Completed 500 (35ms)
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T03:30:32.586Z GET / ::1
+Completed 500 (18ms)
+
+
+Started 2015-11-22T03:30:34.267Z GET / ::1
+Completed 500 (7ms)
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T03:43:42.068Z GET / ::1
+Completed 500 (16ms)
+
+
+Started 2015-11-22T03:44:00.148Z GET / ::1
+Completed 500 (8ms)
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T03:44:33.025Z GET / ::1
+
+
+Started 2015-11-22T03:44:58.220Z GET / ::1
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T03:45:41.025Z GET / ::1
+Completed 500 [32m(41ms)[39m
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T03:46:03.075Z GET / ::1
+Completed 500 [32m(22ms)[39m
+
+
+Started 2015-11-22T03:46:05.286Z GET / ::1
+Completed 500 [32m(5ms)[39m
+You can debug your app with http://:3000
+You can debug your app with http://:3000
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T03:53:11.301Z GET / ::1
+Completed 200 [32m(61ms)[39m
+You can debug your app with http://:3000
+You can debug your app with http://:3000
+You can debug your app with http://:3000
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T04:01:52.734Z GET / ::1
+Completed 200 [32m(45ms)[39m
+
+
+Started 2015-11-22T04:01:58.706Z GET /signin ::1
+
+
+Started 2015-11-22T04:02:12.349Z GET /signup ::1
+Completed 200 [32m(16ms)[39m
+You can debug your app with http://:3000
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T04:04:51.122Z GET /signin ::1
+Completed 200 [32m(41ms)[39m
+
+
+Started 2015-11-22T04:04:59.502Z GET /signup ::1
+Completed 304 [32m(12ms)[39m

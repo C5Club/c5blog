@@ -9,7 +9,6 @@ var path = require('path');
 var Loader = require('loader');
 var express = require('express');
 var session = require('express-session');
-//var passport = require('passport');
 require('./middlewares/mongoose_log'); // 打印 mongodb 查询日志
 require('./models/db');
 var webRouter = require('./routes/routes');
@@ -22,12 +21,11 @@ var compress = require('compression');
 var bodyParser = require('body-parser');
 var busboy = require('connect-busboy');
 var errorhandler = require('errorhandler');
-//var cors = require('cors');
 var requestLog = require('./middlewares/request_log');
 var renderMiddleware = require('./middlewares/render');
 var logger = require('./config/logger');
 var helmet = require('helmet');
-
+var flash = require('connect-flash');
 
 // 静态文件目录
 var staticDir = path.join(__dirname, 'public');
@@ -47,9 +45,7 @@ var app = express();
 
 // configuration in all env
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'jade');
-app.enable('trust proxy');
-
+app.set('view engine', 'ejs');
 // Request logger。请求时间
 app.use(requestLog);
 
@@ -80,23 +76,23 @@ app.use(session({
     saveUninitialized: true
 }));
 
-// oauth 中间件
-//app.use(passport.initialize());
-
 // custom middleware
 app.use(auth.authUser);
 app.use(auth.blockUser());
-
-
+app.use(flash());
 // set static, dynamic helpers
 _.extend(app.locals, {
     config: config,
     Loader: Loader,
     assets: assets
 });
-
+app.use(function (req, res, next) {
+    res.locals.user = req.session.user;
+    res.locals.error = req.session ? req.session.error : null;
+    res.locals.success = req.session ? req.session.success : null;
+    next();
+});
 app.use(errorPageMiddleware.errorPage);
-//_.extend(app.locals, require('./common/render_helper'));
 app.use(function (req, res, next) {
     res.locals.csrf = req.csrfToken ? req.csrfToken() : '';
     next();
@@ -120,10 +116,11 @@ if (config.debug) {
         return res.status(500).send('500 status');
     });
 }
+;
 
 app.listen(config.port, function () {
-    console.log('C5Club listening on port', config.port);
-    console.log('You can debug your app with http://' + ':' + config.port);
+    console.log('C5Club start----- on port', config.port);
+    logger.log('You can debug your app with http://' + ':' + config.port);
 });
 
 module.exports = app;

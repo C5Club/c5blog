@@ -17,6 +17,7 @@ var config = {
     auth_cookie_name: 'node_club',
 
     // 程序运行的端口
+    host:'localhost',
     port: 3000,
     // 邮箱配置
     mail_opts: {
