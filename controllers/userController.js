@@ -7,22 +7,34 @@
 
 var User = require('../dao/userDao');
 var config = require('../config');
-var cache = require('../config/cache');
-var _ = require('lodash');
 var validator = require('validator');
 var eventproxy = require('eventproxy');
 var tools = require('../config/tools');
 exports.index = function (req, res) {
     res.render('index', {
-        title: '首页'
+        title: '首页',
+        user: req.session.user
     });
 }
 exports.showSignup = function (req, res) {
-    res.render('signup', {
-        title: '用户注册',
-        user: ''
-    });
+    if (!req.session.user) {
+        res.render('signup', {
+            title: '用户注册',
+            user: req.session.user
+        });
+    } else {
+        res.render('index', {
+            user: req.session.user
+        })
+    }
 }
+/**
+ * 注册
+ * @param req
+ * @param res
+ * @param next
+ * @returns {*}
+ */
 exports.signup = function (req, res, next) {
     var loginName = validator.trim(req.body.loginName);
     var nick = validator.trim(req.body.nick);
@@ -67,28 +79,45 @@ exports.signup = function (req, res, next) {
             ep.emit('prop_err', '用户名或邮箱已被使用。');
             return;
         }
-        User.newAndSave(nick, loginName, passhash, email, true, function (err) {
+        User.newAndSave(nick, loginName, password, email, true, function (err) {
             if (err) {
                 return next(err);
             }
+            var user = {
+                nick: nick,
+                loginName: loginName,
+                password: password,
+                email: email
+            }
+            req.session.user = user;
             res.render('index', {
                 success: '欢迎',
-                user: {
-                    nick: nick,
-                    email: email,
-                    loginName: loginName
-                }
+                user: req.session.user
             });
         });
     });
 };
 
 exports.showLogin = function (req, res, next) {
-    res.render('signin', {
-        title: '用户登录'
-    });
-
+    if (!req.session.user) {
+        res.render('signin', {
+            title: '用户注册',
+            user: req.session.user | null
+        });
+    } else {
+        res.render('index', {
+            title: '用户注册',
+            user: req.session.user | null
+        });
+    }
 };
+/**
+ * 登录
+ * @param req
+ * @param res
+ * @param next
+ * @returns {*}
+ */
 exports.login = function (req, res, next) {
     var loginName = validator.trim(req.body.loginName);
     var pass = validator.trim(req.body.password);
@@ -119,14 +148,17 @@ exports.login = function (req, res, next) {
         if (pass != passhash) {
             return ep.emit('login_error');
         }
+        req.session.user = user;
+        console.log(req.session);
+        console.log(user + '===================');
+        req.flash('success', '登入成功');
         res.render('index', {
-            user: user
-        });
+                user: req.session.user
+            }
+        );
     });
 };
-exports.activeAccount = function (req, res, next) {
 
-};
 exports.signout = function (req, res) {
     req.session.destroy();
     res.clearCookie(config.auth_cookie_name, { path: '/' });

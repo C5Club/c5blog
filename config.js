@@ -8,6 +8,7 @@ var config = {
     name: 'c5blog',
     // mongodb 配置
     db: 'mongodb://127.0.0.1/app',
+    dbName: 'app',
     debug: true,
     // redis 配置，默认是本地
     redis_host: '127.0.0.1',

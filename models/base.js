@@ -15,3 +15,4 @@ module.exports = function (schema) {
         return tools.formatDate(this.create_at, true);
     };
 };
+

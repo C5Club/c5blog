@@ -5,8 +5,6 @@
  */
 var models  = require('../models/db');
 var User    = models.User;
-var utility = require('utility');
-var uuid    = require('node-uuid');
 
 /**
  * 根据用户名列表查找用户列表
@@ -106,16 +104,6 @@ exports.newAndSave = function (nick, loginName, password, email, active, callbac
     user.loginName   = loginName;
     user.password    = password;
     user.email       = email;
-    user.active      = active || false;
-
     user.save(callback);
 };
 
-var  makeGravatar = function (email) {
-    return 'http://www.gravatar.com/avatar/' + utility.md5(email.toLowerCase()) + '?size=48';
-};
-exports.makeGravatar = makeGravatar;
-
-exports.getGravatar = function (user) {
-    return user.avatar || makeGravatar(user);
-};

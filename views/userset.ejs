@@ -1,0 +1,41 @@
+<% include header.ejs %>
+<form class="form-horizontal" method="post" action="/userset" enctype="multipart/form-data">
+    <FIELDSET>
+        <LEGEND>用户信息设置</LEGEND>
+        <div class="control-group">
+            <label class="control-label" for="loginName">用户名</label>
+            <div class="controls">
+                <input type="text" class="input-xlarge" id="loginName" name="loginName">
+                <p class="help-block">你的账户名称，用于登陆</p>
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="nick">昵称</label>
+            <div class="controls">
+                <input type="text" class="input-xlarge" id="nick" name="nick">
+                <p class="help-block">你的昵称，用于显示</p>
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="email">邮箱</label>
+            <div class="controls">
+                <input type="text" class="input-xlarge" id="email" name="email">
+            </div>
+        </div>
+        <div class="contorl-group">
+            <label class="control-label" for="password">口令</label>
+            <div class="controls">
+                <input type="password" class="input-xlarge" id="password" name="password"></div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="repass">重复输入口令</label>
+            <div class="controls">
+                <input type="password" class="input-xlarge" id="repass" name="repass"></div>
+        </div>
+        <div class="form-actions">
+            <button type="submit" class="btn btn-primary">注册</button>
+            <button type="reset" class="btn btn-primary">重置</button>
+        </div>
+    </FIELDSET>
+</form>
+<% include footer.ejs %>

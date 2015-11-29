@@ -7,7 +7,6 @@ var UserSchema = new Schema({
     loginName: { type: String},
     password: { type: String },
     email: { type: String},
-    active: { type: Boolean, default: false },
     create_at: { type: Date, default: Date.now },
     update_at: { type: Date, default: Date.now }
 

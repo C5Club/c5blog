@@ -603,3 +603,3172 @@ Completed 304
 Started 2015-11-22T15:03:25.330Z GET / ::1
   Render view index 
 Completed 304 
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T15:07:12.453Z GET /signin ::1
+  Render view signin 
+Completed 200 
+
+
+Started 2015-11-22T15:07:17.729Z POST /signin ::ffff:127.0.0.1
+  Render view index 
+Completed 200 
+
+
+Started 2015-11-22T15:07:19.060Z GET / ::1
+  Render view index 
+Completed 304 
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T15:08:17.195Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-22T15:08:20.427Z GET /signin ::1
+  Render view signin 
+Completed 200 
+
+
+Started 2015-11-22T15:08:22.143Z POST /signin ::1
+  Render view index 
+Completed 200 
+
+
+Started 2015-11-22T15:08:23.338Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-22T15:08:28.724Z GET /signin ::1
+  Render view signin 
+Completed 200 
+
+
+Started 2015-11-22T15:08:30.126Z POST /signin ::1
+  Render view index 
+Completed 200 
+
+
+Started 2015-11-22T15:08:31.914Z GET / ::1
+  Render view index 
+Completed 304 
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T15:11:12.898Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-22T15:11:14.557Z GET /signin ::1
+  Render view signin 
+Completed 200 
+
+
+Started 2015-11-22T15:11:16.056Z POST /signin ::1
+  Render view index 
+Completed 200 
+
+
+Started 2015-11-22T15:11:18.498Z GET / ::1
+  Render view index 
+Completed 304 
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T15:13:58.828Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-22T15:14:00.874Z GET /signin ::1
+  Render view signin 
+Completed 200 
+
+
+Started 2015-11-22T15:14:02.615Z POST /signin ::1
+  Render view index 
+Completed 200 
+
+
+Started 2015-11-22T15:14:04.561Z GET /signout ::1
+Completed 302 
+
+
+Started 2015-11-22T15:14:04.571Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-22T15:14:06.530Z GET /signin ::1
+  Render view signin 
+Completed 200 
+
+
+Started 2015-11-22T15:14:08.038Z POST /signin ::1
+  Render view index 
+Completed 200 
+
+
+Started 2015-11-22T15:14:10.025Z GET / ::1
+  Render view index 
+Completed 304 
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T15:15:13.265Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-22T15:15:43.283Z GET /signin ::1
+  Render view signin 
+Completed 200 
+
+
+Started 2015-11-22T15:15:44.623Z POST /signin ::1
+  Render view index 
+Completed 200 
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T15:17:29.393Z GET / ::1
+Completed 304 
+  Render view index 
+
+
+Started 2015-11-22T15:17:39.274Z GET /signin ::1
+  Render view signin 
+Completed 200 
+
+
+Started 2015-11-22T15:17:40.503Z POST /signin ::1
+  Render view index 
+Completed 200 
+
+
+Started 2015-11-22T15:19:37.411Z GET /signout ::1
+Completed 302 
+
+
+Started 2015-11-22T15:19:37.424Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-22T15:19:40.331Z GET /signup ::1
+  Render view signup 
+Completed 304 
+
+
+Started 2015-11-22T15:19:43.425Z GET /signin ::1
+  Render view signin 
+Completed 200 
+
+
+Started 2015-11-22T15:19:48.812Z POST /signin ::1
+  Render view index 
+Completed 403 
+
+
+Started 2015-11-22T15:19:51.226Z GET /signin ::1
+  Render view signin 
+Completed 304 
+
+
+Started 2015-11-22T15:19:52.702Z POST /signin ::1
+  Render view index 
+Completed 200 
+
+
+Started 2015-11-22T15:19:55.890Z GET / ::1
+Completed 304 
+  Render view index 
+
+
+Started 2015-11-22T15:19:57.242Z GET / ::1
+  Render view index 
+Completed 304 
+You can debug your app with http://:3000
+
+
+Started 2015-11-22T15:22:39.314Z GET /signin ::1
+  Render view signin 
+Completed 200 
+
+
+Started 2015-11-22T15:22:40.774Z POST /signin ::1
+Completed 302 
+
+
+Started 2015-11-22T15:22:40.815Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-22T15:22:44.324Z GET /signin ::1
+  Render view signin 
+Completed 200 
+
+
+Started 2015-11-22T15:22:45.574Z POST /signin ::1
+Completed 302 
+
+
+Started 2015-11-22T15:22:45.589Z GET / ::1
+  Render view index 
+Completed 304 
+You can debug your app with http://:3000
+You can debug your app with http://:3000
+
+
+Started 2015-11-23T13:28:11.466Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:28:12.145Z GET /favicon.ico ::1
+Completed 404 
+
+
+Started 2015-11-23T13:28:13.461Z GET /signin ::1
+  Render view signup 
+Completed 200 
+
+
+Started 2015-11-23T13:28:17.467Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:28:19.006Z GET /signin ::1
+  Render view signup 
+Completed 304 
+
+
+Started 2015-11-23T13:28:21.554Z GET / ::1
+  Render view index 
+Completed 304 
+You can debug your app with http://:3000
+
+
+Started 2015-11-23T13:29:49.446Z GET /signin ::1
+  Render view signin 
+Completed 200 
+
+
+Started 2015-11-23T13:29:51.417Z POST /signin ::1
+Completed 302 
+
+
+Started 2015-11-23T13:29:51.522Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:29:56.037Z GET /signin ::1
+Completed 302 
+
+
+Started 2015-11-23T13:29:56.044Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:29:57.867Z GET /signin ::1
+Completed 302 
+
+
+Started 2015-11-23T13:29:57.874Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:29:58.964Z GET /signin ::1
+Completed 302 
+
+
+Started 2015-11-23T13:29:58.972Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:29:59.851Z GET /signin ::1
+Completed 302 
+
+
+Started 2015-11-23T13:29:59.858Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:30:00.611Z GET /signin ::1
+Completed 302 
+
+
+Started 2015-11-23T13:30:00.616Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:30:01.323Z GET /signin ::1
+Completed 302 
+
+
+Started 2015-11-23T13:30:01.331Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:30:16.011Z GET /signin ::1
+Completed 302 
+
+
+Started 2015-11-23T13:30:16.019Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:30:17.245Z GET /signup ::1
+Completed 302 
+
+
+Started 2015-11-23T13:30:17.254Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:30:18.587Z GET /signin ::1
+Completed 302 
+
+
+Started 2015-11-23T13:30:18.596Z GET / ::1
+  Render view index 
+Completed 304 
+You can debug your app with http://:3000
+
+
+Started 2015-11-23T13:31:12.460Z GET /signin ::1
+Completed 302 
+
+
+Started 2015-11-23T13:31:12.481Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:31:14.036Z GET /signin ::1
+Completed 302 
+
+
+Started 2015-11-23T13:31:14.044Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:31:17.148Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:31:19.437Z GET /signin ::1
+Completed 302 
+
+
+Started 2015-11-23T13:31:19.446Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:31:20.612Z GET /signin ::1
+Completed 302 
+
+
+Started 2015-11-23T13:31:20.618Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:31:21.444Z GET /signin ::1
+Completed 302 
+
+
+Started 2015-11-23T13:31:21.448Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:31:22.428Z GET /signup ::1
+Completed 302 
+
+
+Started 2015-11-23T13:31:22.433Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:31:23.453Z GET /signup ::1
+Completed 302 
+
+
+Started 2015-11-23T13:31:23.459Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:31:24.163Z GET /signup ::1
+Completed 302 
+
+
+Started 2015-11-23T13:31:24.166Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:31:31.417Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:31:33.381Z GET /signin ::1
+Completed 302 
+
+
+Started 2015-11-23T13:31:33.387Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:31:43.380Z GET /signup ::1
+Completed 302 
+
+
+Started 2015-11-23T13:31:43.387Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:31:44.709Z GET /signup ::1
+Completed 302 
+
+
+Started 2015-11-23T13:31:44.715Z GET / ::1
+  Render view index 
+Completed 304 
+You can debug your app with http://:3000
+
+
+Started 2015-11-23T13:37:25.179Z GET / ::1
+  Render view index 
+Completed 200 
+
+
+Started 2015-11-23T13:37:27.309Z GET /signin ::1
+Completed 302 
+
+
+Started 2015-11-23T13:37:27.321Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:37:28.885Z GET /signin ::1
+Completed 302 
+
+
+Started 2015-11-23T13:37:28.893Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:37:30.310Z GET /signin ::1
+Completed 302 
+
+
+Started 2015-11-23T13:37:30.317Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:41:19.640Z GET /signin ::1
+Completed 302 
+
+
+Started 2015-11-23T13:41:19.647Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:41:20.916Z GET /signin ::1
+Completed 302 
+
+
+Started 2015-11-23T13:41:20.922Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:41:22.030Z GET /signup ::1
+Completed 302 
+
+
+Started 2015-11-23T13:41:22.036Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:41:22.773Z GET /signup ::1
+Completed 302 
+
+
+Started 2015-11-23T13:41:22.780Z GET / ::1
+  Render view index 
+Completed 304 
+You can debug your app with http://:3000
+
+
+Started 2015-11-23T13:41:41.743Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:41:42.241Z GET /favicon.ico ::1
+Completed 404 
+
+
+Started 2015-11-23T13:41:45.286Z GET /signin ::1
+  Render view signin 
+Completed 200 
+
+
+Started 2015-11-23T13:41:47.313Z POST /signin ::1
+Completed 302 
+
+
+Started 2015-11-23T13:41:47.360Z GET / ::1
+  Render view index 
+Completed 304 
+You can debug your app with http://:3000
+
+
+Started 2015-11-23T13:46:59.181Z GET /signin ::1
+  Render view index 
+Completed 200 
+
+
+Started 2015-11-23T13:47:00.284Z GET /signin ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:47:02.180Z GET /signup ::1
+Completed 302 
+
+
+Started 2015-11-23T13:47:02.191Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:47:03.124Z GET /signup ::1
+Completed 302 
+
+
+Started 2015-11-23T13:47:03.130Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:47:03.870Z GET /signup ::1
+Completed 302 
+
+
+Started 2015-11-23T13:47:03.874Z GET / ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:47:04.588Z GET /signup ::1
+Completed 302 
+
+
+Started 2015-11-23T13:47:04.596Z GET / ::1
+  Render view index 
+Completed 304 
+You can debug your app with http://:3000
+
+
+Started 2015-11-23T13:48:24.723Z GET /signin ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:48:25.644Z GET /signin ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:48:26.323Z GET /signin ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:48:27.437Z GET /signin ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:48:28.218Z GET /signin ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:48:28.836Z GET /signup ::1
+  Render view index 
+Completed 200 
+
+
+Started 2015-11-23T13:48:29.619Z GET /signup ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:48:30.459Z GET /signup ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:48:31.148Z GET /signup ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:48:31.795Z GET /signup ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:48:32.452Z GET /signup ::1
+  Render view index 
+Completed 304 
+
+
+Started 2015-11-23T13:48:33.132Z GET /signup ::1
+  Render view index 
+Completed 304 
+You can debug your app with http://:3000
+You can debug your app with http://:3000
+
+
+Started 2015-11-27T13:57:48.220Z GET / ::1
+Completed 200 
+
+
+Started 2015-11-27T13:57:49.154Z GET /favicon.ico ::1
+Completed 404 
+You can debug your app with http://:3000
+
+
+Started 2015-11-27T13:58:45.159Z GET / ::1
+Completed 200 
+
+
+Started 2015-11-27T13:58:45.389Z GET /stylesheets/bootstrap.css ::1
+
+
+Started 2015-11-27T13:58:45.391Z GET /stylesheets/bootstrap-responsive.css ::1
+
+
+Started 2015-11-27T13:58:45.392Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-11-27T13:58:45.393Z GET /javascripts/bootstrap.js ::1
+Completed 200 
+Completed 200 
+Completed 200 
+Completed 200 
+
+
+Started 2015-11-27T13:59:00.846Z GET /signin ::1
+Completed 200 
+
+
+Started 2015-11-27T13:59:01.192Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:01.198Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:01.202Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:01.208Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:03.029Z POST /signin ::1
+Completed 200 
+
+
+Started 2015-11-27T13:59:03.737Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:03.743Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:03.756Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-11-27T13:59:03.758Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+
+
+Started 2015-11-27T13:59:08.194Z GET /signout ::1
+Completed 302 
+
+
+Started 2015-11-27T13:59:08.202Z GET / ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:08.318Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:08.388Z GET /stylesheets/bootstrap-responsive.css ::1
+
+
+Started 2015-11-27T13:59:08.389Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-11-27T13:59:08.390Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+Completed 304 
+
+
+Started 2015-11-27T13:59:10.435Z GET /signin ::1
+Completed 200 
+
+
+Started 2015-11-27T13:59:10.548Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:10.557Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:10.564Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:10.569Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:12.188Z POST /signin ::1
+Completed 200 
+
+
+Started 2015-11-27T13:59:12.303Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:12.310Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:12.315Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:12.320Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:16.707Z GET / ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:16.812Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:16.819Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:16.824Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:16.828Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:18.538Z GET /signin ::1
+Completed 200 
+
+
+Started 2015-11-27T13:59:18.656Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:18.666Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:18.708Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-11-27T13:59:18.709Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+
+
+Started 2015-11-27T13:59:19.907Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:20.016Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:20.021Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:20.026Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:20.032Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:20.843Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:20.949Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:20.954Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:20.959Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:20.964Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:21.529Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:21.633Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:21.640Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:21.653Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:21.665Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:22.194Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:22.325Z GET /stylesheets/bootstrap.css ::1
+
+
+Started 2015-11-27T13:59:22.325Z GET /stylesheets/bootstrap-responsive.css ::1
+
+
+Started 2015-11-27T13:59:22.326Z GET /javascripts/jquery.js ::1
+Completed 304 
+Completed 304 
+Completed 304 
+
+
+Started 2015-11-27T13:59:22.340Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:22.818Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:22.932Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:22.940Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:22.948Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:22.955Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:23.379Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:23.497Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:23.509Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:23.517Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:23.525Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:23.859Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:23.985Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:23.992Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:23.997Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:24.006Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:24.211Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:24.334Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:24.345Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:24.354Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:24.358Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:24.595Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:24.739Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:24.785Z GET /stylesheets/bootstrap-responsive.css ::1
+
+
+Started 2015-11-27T13:59:24.785Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-11-27T13:59:24.786Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+Completed 304 
+
+
+Started 2015-11-27T13:59:25.593Z GET / ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:25.697Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:25.704Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:25.710Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:25.717Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:26.850Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:26.961Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:26.967Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:26.982Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-11-27T13:59:26.983Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+
+
+Started 2015-11-27T13:59:27.682Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:27.787Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:27.792Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:27.796Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:27.800Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:28.314Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:28.417Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:28.425Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:28.434Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:28.446Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:28.915Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:29.024Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:29.031Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:29.042Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:29.047Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:29.460Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:29.574Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:29.582Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:29.596Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:29.605Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:29.807Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:29.952Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:29.957Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:29.965Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:29.969Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:30.280Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:30.396Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:30.401Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:30.408Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:30.412Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:30.674Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:30.810Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:30.816Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:30.823Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:30.832Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:31.537Z GET /signup ::1
+Completed 200 
+
+
+Started 2015-11-27T13:59:31.652Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:31.658Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:31.664Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:31.670Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:32.306Z GET /signup ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:32.417Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:32.423Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:32.427Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:32.433Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:32.897Z GET /signup ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:33.009Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:33.015Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:33.023Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:33.028Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:33.291Z GET /signup ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:33.430Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:33.438Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:33.445Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:33.452Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:33.715Z GET /signup ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:33.831Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:33.835Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:33.843Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:33.847Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:34.176Z GET /signup ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:34.286Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:34.292Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:34.296Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:34.303Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:34.587Z GET /signup ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:34.719Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:34.726Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:34.732Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:34.737Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:34.994Z GET /signup ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:35.106Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:35.112Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:35.124Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:35.132Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:35.408Z GET /signup ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:35.541Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:35.547Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:35.553Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-27T13:59:35.559Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+You can debug your app with http://:3000
+
+
+Started 2015-11-28T06:07:54.465Z GET / ::1
+Completed 200 
+
+
+Started 2015-11-28T06:07:54.874Z GET /stylesheets/bootstrap.css ::1
+
+
+Started 2015-11-28T06:07:54.890Z GET /stylesheets/bootstrap-responsive.css ::1
+
+
+Started 2015-11-28T06:07:54.894Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-11-28T06:07:54.898Z GET /javascripts/bootstrap.js ::1
+Completed 200 
+Completed 200 
+Completed 200 
+Completed 200 
+
+
+Started 2015-11-28T06:07:55.358Z GET /favicon.ico ::1
+Completed 404 
+
+
+Started 2015-11-28T06:08:04.846Z GET /signin ::1
+Completed 200 
+
+
+Started 2015-11-28T06:08:05.039Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:05.045Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:05.050Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:05.054Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:06.768Z POST /signin ::1
+Completed 200 
+
+
+Started 2015-11-28T06:08:07.392Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:07.397Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:07.403Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:07.407Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:13.596Z GET /signout ::1
+Completed 302 
+
+
+Started 2015-11-28T06:08:13.606Z GET / ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:13.827Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:13.833Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:13.841Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-11-28T06:08:13.842Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+
+
+Started 2015-11-28T06:08:16.868Z GET /signin ::1
+Completed 200 
+
+
+Started 2015-11-28T06:08:17.046Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:17.053Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:17.059Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:17.067Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:18.593Z POST /signin ::1
+Completed 200 
+
+
+Started 2015-11-28T06:08:18.708Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:18.714Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:18.721Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:18.730Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:20.432Z GET /signout ::1
+Completed 302 
+
+
+Started 2015-11-28T06:08:20.439Z GET / ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:20.547Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:20.553Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:20.557Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:20.562Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:22.540Z GET /signin ::1
+Completed 200 
+
+
+Started 2015-11-28T06:08:22.651Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:22.657Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:22.665Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-11-28T06:08:22.669Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+
+
+Started 2015-11-28T06:08:24.431Z POST /signin ::1
+Completed 200 
+
+
+Started 2015-11-28T06:08:24.544Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:24.551Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:24.560Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:24.567Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:25.708Z GET / ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:25.821Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:25.831Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:25.841Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:25.853Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:27.965Z GET /signin ::1
+Completed 200 
+
+
+Started 2015-11-28T06:08:28.083Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:28.095Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:28.100Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:28.104Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:29.147Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:29.263Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:29.271Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:29.280Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:29.287Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:29.857Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:29.973Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:29.982Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:29.989Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:29.998Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:30.609Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:30.721Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:30.726Z GET /stylesheets/bootstrap-responsive.css ::1
+
+
+Started 2015-11-28T06:08:30.733Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:30.737Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+
+
+Started 2015-11-28T06:08:31.276Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:31.389Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:31.395Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:31.405Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:31.415Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:31.901Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:32.037Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:32.049Z GET /stylesheets/bootstrap-responsive.css ::1
+
+
+Started 2015-11-28T06:08:32.050Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-11-28T06:08:32.051Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+Completed 304 
+
+
+Started 2015-11-28T06:08:32.522Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:32.641Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:32.648Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:32.653Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:32.657Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:33.832Z GET / ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:33.942Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:33.948Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:33.955Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:33.963Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:35.282Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:35.395Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:35.400Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:35.407Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:35.411Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:36.181Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:36.296Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:36.303Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:36.309Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:36.314Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:36.956Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:37.070Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:37.076Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:37.082Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:37.087Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:37.694Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:37.829Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:37.836Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:37.842Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:37.856Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:38.089Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:38.203Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:38.208Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:38.218Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:08:38.223Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:32.337Z GET /signup ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:32.553Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:32.573Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-11-28T06:10:32.574Z GET /stylesheets/bootstrap-responsive.css ::1
+
+
+Started 2015-11-28T06:10:32.575Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+Completed 304 
+
+
+Started 2015-11-28T06:10:33.565Z GET /signup ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:33.744Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:33.757Z GET /stylesheets/bootstrap-responsive.css ::1
+
+
+Started 2015-11-28T06:10:33.758Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-11-28T06:10:33.759Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+Completed 304 
+
+
+Started 2015-11-28T06:10:35.752Z GET / ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:35.856Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:35.862Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:35.871Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:35.884Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:38.534Z GET / ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:38.639Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:38.644Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:38.648Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:38.652Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:39.534Z GET / ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:39.639Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:39.646Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:39.652Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:39.660Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:41.116Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:41.225Z GET /stylesheets/bootstrap.css ::1
+
+
+Started 2015-11-28T06:10:41.228Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:41.232Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:41.236Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+
+
+Started 2015-11-28T06:10:41.988Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:42.105Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:42.115Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:42.119Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:42.123Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:42.777Z GET /signup ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:42.893Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:42.897Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:42.901Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:42.907Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:43.769Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:43.878Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:43.884Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:43.891Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:43.899Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:44.462Z GET /signup ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:44.580Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:44.586Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:44.591Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:44.596Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:45.255Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:45.367Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:45.371Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:45.375Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:10:45.381Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:12:31.316Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-28T06:12:31.544Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:12:31.552Z GET /stylesheets/bootstrap-responsive.css ::1
+
+
+Started 2015-11-28T06:12:31.553Z GET /javascripts/jquery.js ::1
+Completed 304 
+Completed 304 
+
+
+Started 2015-11-28T06:12:31.558Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+You can debug your app with http://:3000
+
+
+Started 2015-11-28T06:18:04.884Z GET / ::1
+Completed 304 
+
+
+Started 2015-11-28T06:18:05.139Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:18:05.162Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:18:05.168Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-11-28T06:18:05.169Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+
+
+Started 2015-11-28T06:18:08.820Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-28T06:18:08.998Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:18:09.007Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:18:09.013Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:18:09.015Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:18:11.999Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-28T06:18:12.105Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:18:12.111Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:18:12.117Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:18:12.128Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:18:13.472Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-28T06:18:13.579Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:18:13.586Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:18:13.592Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:18:13.601Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+You can debug your app with http://:3000
+
+
+Started 2015-11-28T06:37:47.781Z GET / ::1
+Completed 304 
+
+
+Started 2015-11-28T06:37:48.311Z GET /stylesheets/bootstrap.css ::1
+
+
+Started 2015-11-28T06:37:48.313Z GET /stylesheets/bootstrap-responsive.css ::1
+
+
+Started 2015-11-28T06:37:48.314Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-11-28T06:37:48.315Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+Completed 304 
+Completed 304 
+
+
+Started 2015-11-28T06:37:51.693Z GET /signin ::1
+Completed 200 
+
+
+Started 2015-11-28T06:37:51.875Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:37:51.882Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:37:51.886Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:37:51.891Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:37:53.465Z POST /signin ::1
+Completed 200 
+
+
+Started 2015-11-28T06:37:53.609Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:37:53.616Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:37:53.626Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:37:53.632Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:37:55.756Z GET / ::1
+Completed 304 
+
+
+Started 2015-11-28T06:37:55.869Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:37:55.875Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:37:55.882Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:37:55.886Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:38:05.985Z GET /signin ::1
+Completed 200 
+
+
+Started 2015-11-28T06:38:06.189Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:38:06.209Z GET /stylesheets/bootstrap-responsive.css ::1
+
+
+Started 2015-11-28T06:38:06.209Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-11-28T06:38:06.210Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+Completed 304 
+
+
+Started 2015-11-28T06:38:07.471Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-28T06:38:07.672Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:38:07.690Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:38:07.693Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:38:07.695Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:38:08.931Z GET /signup ::1
+Completed 304 
+
+
+Started 2015-11-28T06:38:09.037Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:38:09.045Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:38:09.051Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:38:09.062Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:38:10.364Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-28T06:38:10.479Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:38:10.489Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:38:10.496Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:38:10.500Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:38:11.401Z GET /signup ::1
+Completed 304 
+
+
+Started 2015-11-28T06:38:11.539Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:38:11.548Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:38:11.562Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:38:11.565Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:38:12.345Z GET /signup ::1
+Completed 304 
+
+
+Started 2015-11-28T06:38:12.454Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:38:12.460Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:38:12.470Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:38:12.483Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+You can debug your app with http://:3000
+
+
+Started 2015-11-28T06:39:55.087Z GET / ::1
+
+
+Started 2015-11-28T06:39:55.123Z GET / ::1
+Completed 200 
+
+
+Started 2015-11-28T06:39:55.400Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:39:55.419Z GET /stylesheets/bootstrap-responsive.css ::1
+
+
+Started 2015-11-28T06:39:55.420Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-11-28T06:39:55.420Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+Completed 304 
+
+
+Started 2015-11-28T06:39:56.713Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-28T06:39:56.880Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:39:56.885Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:39:56.889Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:39:56.892Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:39:58.827Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-28T06:39:58.938Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:39:58.944Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:39:58.955Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:39:58.961Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:40:00.771Z GET /signup ::1
+Completed 304 
+
+
+Started 2015-11-28T06:40:00.888Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:40:00.902Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:40:00.908Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:40:00.915Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:40:03.197Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-28T06:40:03.303Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:40:03.309Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:40:03.315Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:40:03.325Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:40:04.370Z GET /signup ::1
+Completed 304 
+
+
+Started 2015-11-28T06:40:04.482Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:40:04.486Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:40:04.490Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:40:04.503Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+You can debug your app with http://:3000
+
+
+Started 2015-11-28T06:41:47.608Z GET /signin ::1
+Completed 500 
+You can debug your app with http://:3000
+
+
+Started 2015-11-28T06:42:36.071Z GET / ::1
+
+
+Started 2015-11-28T06:42:36.094Z GET / ::1
+Completed 500 
+
+
+Started 2015-11-28T06:42:39.761Z GET / ::1
+Completed 200 
+
+
+Started 2015-11-28T06:42:39.910Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:42:39.918Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:42:39.925Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:42:39.930Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:42:42.591Z GET /signin ::1
+Completed 200 
+
+
+Started 2015-11-28T06:42:42.701Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:42:42.708Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:42:42.717Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:42:42.724Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:42:44.085Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-28T06:42:44.198Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:42:44.205Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:42:44.211Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:42:44.216Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:42:44.875Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-28T06:42:44.987Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:42:44.992Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:42:44.996Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:42:45.002Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:42:45.850Z GET /signup ::1
+Completed 304 
+
+
+Started 2015-11-28T06:42:45.964Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:42:45.970Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:42:45.977Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:42:45.982Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:42:46.830Z GET /signup ::1
+Completed 304 
+
+
+Started 2015-11-28T06:42:46.949Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:42:46.960Z GET /stylesheets/bootstrap-responsive.css ::1
+
+
+Started 2015-11-28T06:42:46.966Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:42:46.970Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+
+
+Started 2015-11-28T06:42:47.618Z GET /signup ::1
+Completed 304 
+
+
+Started 2015-11-28T06:42:47.724Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:42:47.733Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-28T06:42:47.741Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-28T06:42:47.754Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+You can debug your app with http://:3000
+
+
+Started 2015-11-29T13:30:55.813Z GET / ::1
+Completed 200 
+
+
+Started 2015-11-29T13:30:56.099Z GET /stylesheets/bootstrap.css ::1
+Completed 200 
+
+
+Started 2015-11-29T13:30:56.121Z GET /stylesheets/bootstrap-responsive.css ::1
+
+
+Started 2015-11-29T13:30:56.125Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-11-29T13:30:56.126Z GET /javascripts/bootstrap.js ::1
+Completed 200 
+Completed 200 
+Completed 200 
+
+
+Started 2015-11-29T13:30:56.463Z GET /favicon.ico ::1
+Completed 404 
+
+
+Started 2015-11-29T13:30:59.529Z GET /signin ::1
+Completed 200 
+
+
+Started 2015-11-29T13:30:59.707Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-29T13:30:59.713Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-29T13:30:59.724Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-11-29T13:30:59.725Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+
+
+Started 2015-11-29T13:31:01.095Z POST /signin ::1
+Completed 200 
+
+
+Started 2015-11-29T13:31:01.250Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-29T13:31:01.258Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-29T13:31:01.264Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-29T13:31:01.270Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:30.945Z GET /signout ::1
+Completed 302 
+
+
+Started 2015-11-29T13:32:30.967Z GET / ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:31.186Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:31.211Z GET /stylesheets/bootstrap-responsive.css ::1
+
+
+Started 2015-11-29T13:32:31.212Z GET /javascripts/jquery.js ::1
+Completed 304 
+Completed 304 
+
+
+Started 2015-11-29T13:32:31.217Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:33.377Z GET /signin ::1
+Completed 200 
+
+
+Started 2015-11-29T13:32:33.545Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:33.549Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:33.554Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:33.558Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:35.045Z POST /signin ::1
+Completed 200 
+
+
+Started 2015-11-29T13:32:35.163Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:35.169Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:35.179Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:35.185Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:36.544Z GET /signout ::1
+Completed 302 
+
+
+Started 2015-11-29T13:32:36.551Z GET / ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:36.660Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:36.669Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:36.674Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:36.678Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:37.960Z GET /signin ::1
+Completed 200 
+
+
+Started 2015-11-29T13:32:38.070Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:38.077Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:38.083Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:38.087Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:39.634Z POST /signin ::1
+Completed 200 
+
+
+Started 2015-11-29T13:32:39.749Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:39.757Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:39.765Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:39.773Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:40.991Z GET /signout ::1
+Completed 302 
+
+
+Started 2015-11-29T13:32:40.998Z GET / ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:41.102Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:41.108Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:41.117Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:41.124Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:50.392Z GET / ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:50.502Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:50.508Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:50.515Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:50.522Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:51.448Z GET /signin ::1
+Completed 200 
+
+
+Started 2015-11-29T13:32:51.564Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:51.569Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:51.574Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:51.578Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:53.141Z POST /signin ::1
+Completed 200 
+
+
+Started 2015-11-29T13:32:53.250Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:53.258Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:53.268Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:53.274Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:54.528Z GET / ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:54.632Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:54.637Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:54.643Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:54.650Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:55.912Z GET /signin ::1
+Completed 200 
+
+
+Started 2015-11-29T13:32:56.025Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:56.031Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:56.040Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:56.045Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:56.672Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:56.786Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:56.794Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:56.800Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:56.804Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:57.335Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:57.441Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:57.448Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:57.454Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-29T13:32:57.465Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+You can debug your app with http://:3000
+
+
+Started 2015-11-29T14:13:01.583Z GET / ::1
+Completed 200 
+
+
+Started 2015-11-29T14:13:01.871Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-29T14:13:01.901Z GET /stylesheets/bootstrap-responsive.css ::1
+
+
+Started 2015-11-29T14:13:01.903Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-11-29T14:13:01.904Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+Completed 304 
+
+
+Started 2015-11-29T14:13:06.577Z GET /signout ::1
+Completed 302 
+
+
+Started 2015-11-29T14:13:06.590Z GET / ::1
+Completed 200 
+
+
+Started 2015-11-29T14:13:06.757Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-29T14:13:06.763Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-29T14:13:06.769Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-29T14:13:06.773Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-29T14:13:08.979Z GET /signin ::1
+Completed 200 
+
+
+Started 2015-11-29T14:13:09.094Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-29T14:13:09.104Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-29T14:13:09.110Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-29T14:13:09.118Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-29T14:13:10.573Z POST /signin ::1
+Completed 200 
+
+
+Started 2015-11-29T14:13:10.720Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-29T14:13:10.728Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-29T14:13:10.738Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-29T14:13:10.746Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-29T14:13:12.280Z GET / ::1
+Completed 200 
+
+
+Started 2015-11-29T14:13:12.393Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-29T14:13:12.397Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-29T14:13:12.404Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-29T14:13:12.409Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-29T14:13:13.567Z GET /signout ::1
+Completed 302 
+
+
+Started 2015-11-29T14:13:13.576Z GET / ::1
+Completed 200 
+
+
+Started 2015-11-29T14:13:13.679Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-29T14:13:13.686Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-29T14:13:13.693Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-29T14:13:13.699Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-29T14:13:28.743Z GET /signin ::1
+Completed 200 
+
+
+Started 2015-11-29T14:13:28.954Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-29T14:13:28.965Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-29T14:13:28.972Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-29T14:13:28.975Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-11-29T14:13:30.748Z POST /signin ::1
+Completed 200 
+
+
+Started 2015-11-29T14:13:30.924Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-11-29T14:13:30.929Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-11-29T14:13:30.936Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-11-29T14:13:30.942Z GET /javascripts/bootstrap.js ::1
+Completed 304 
