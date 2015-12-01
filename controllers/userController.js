@@ -25,7 +25,7 @@ exports.showSignup = function (req, res) {
     } else {
         res.render('index', {
             user: req.session.user
-        })
+        });
     }
 }
 /**
@@ -79,7 +79,7 @@ exports.signup = function (req, res, next) {
             ep.emit('prop_err', '用户名或邮箱已被使用。');
             return;
         }
-        User.newAndSave(nick, loginName, password, email, true, function (err) {
+        User.newAndSave(nick, loginName, password, email, function (err) {
             if (err) {
                 return next(err);
             }
@@ -91,7 +91,7 @@ exports.signup = function (req, res, next) {
             }
             req.session.user = user;
             res.render('index', {
-                success: '欢迎',
+                success: req.flash('欢迎！').toString(),
                 user: req.session.user
             });
         });
@@ -150,7 +150,6 @@ exports.login = function (req, res, next) {
         }
         req.session.user = user;
         console.log(req.session);
-        console.log(user + '===================');
         req.flash('success', '登入成功');
         res.render('index', {
                 user: req.session.user

@@ -3,34 +3,35 @@
     <FIELDSET>
         <LEGEND>用户信息设置</LEGEND>
         <div class="control-group">
-            <label class="control-label" for="loginName">用户名</label>
+            <label class="control-label" for="photo">头像</label>
+
             <div class="controls">
-                <input type="text" class="input-xlarge" id="loginName" name="loginName">
-                <p class="help-block">你的账户名称，用于登陆</p>
+                <input type="file" class="input-xlarge" id="photo" name="photo">
+                <input type="hidden" value="<%= user._id %>">
             </div>
         </div>
         <div class="control-group">
-            <label class="control-label" for="nick">昵称</label>
+            <label class="control-label" for="school">学校</label>
+
             <div class="controls">
-                <input type="text" class="input-xlarge" id="nick" name="nick">
-                <p class="help-block">你的昵称，用于显示</p>
+                <input type="text" class="input-xlarge" id="school" name="school">
+
+                <p class="help-block">用于找到同校的朋友</p>
             </div>
         </div>
         <div class="control-group">
-            <label class="control-label" for="email">邮箱</label>
+            <label class="control-label" for="hobby">兴趣爱好</label>
+
             <div class="controls">
-                <input type="text" class="input-xlarge" id="email" name="email">
+                <input type="checkbox" class="input-xlarge" id="hobby" name="hobby">
+                <select class="" id="hobby" name="hobby">
+                    <option name="hobby" value="sport">体育</option>
+                    <option name="hobby" value="art">艺术</option>
+                    <option name="hobby" value="game">游戏</option>
+                    <option name="hobby" value="study">学习</option>
+                </select>
+
             </div>
-        </div>
-        <div class="contorl-group">
-            <label class="control-label" for="password">口令</label>
-            <div class="controls">
-                <input type="password" class="input-xlarge" id="password" name="password"></div>
-        </div>
-        <div class="control-group">
-            <label class="control-label" for="repass">重复输入口令</label>
-            <div class="controls">
-                <input type="password" class="input-xlarge" id="repass" name="repass"></div>
         </div>
         <div class="form-actions">
             <button type="submit" class="btn btn-primary">注册</button>
