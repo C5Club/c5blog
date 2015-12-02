@@ -24,8 +24,8 @@ exports.userSet = function (req, res, next) {
     var user_id = validator.trim(req.body.user_id);
     var hobby = validator.trim(req.body.hobby);
     //2、上传
-    var photo = upload.upload(req.photo);
-    console.log(photo)
+    var photo = upload.upload(req, res);
+    console.log(photo);
     //3、保存到db
     UserSet.newAndSave(user_id, photo, hobby, school, function (err) {
         if (err) {

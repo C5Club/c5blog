@@ -1,25 +1,21 @@
 // 文件上传到本地
-var config  = require('../config');
+var config = require('../config');
 var utility = require('utility');
-var path    = require('path');
-var fs      = require('fs');
-
-exports.upload = function (file, options, callback) {
-  var filename = options.filename;
-
-  var newFilename = utility.md5(filename + String((new Date()).getTime())) +
-    path.extname(filename);
-
-  var upload_path = config.upload.path;
-  var base_url    = config.upload.url;
-  var filePath    = path.join(upload_path, newFilename);
-  var fileUrl     = base_url + newFilename;
-
-  file.on('end', function () {
-    callback(null, {
-      url: fileUrl
+var path = require('path');
+var fs = require('fs');
+var Busboy = require('busboy');
+exports.upload = function (req, res) {
+    var busboy = new Busboy({ headers: req.headers });
+    var url = busboy.on('file', function (fieldname, file, filename, encoding, mimetype) {
+        var newFilename = utility.md5(filename + String((new Date()).getTime())) +
+            path.extname(filename);
+        var url = path.join(__dirname, '../public/uploads', path.basename(newFilename));
+        file.pipe(fs.createWriteStream(url));
+        return url;
     });
-  });
-
-  file.pipe(fs.createWriteStream(filePath));
+    busboy.on('finish', function () {
+        res.writeHead(200);
+        console.log('upload success!')
+    });
+    return url;
 };

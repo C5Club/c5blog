@@ -17,8 +17,8 @@ router.get('/signup', user.showSignup);  // 跳转到注册页面
 router.post('/signup', user.signup);  // 提交注册信息
 router.get('/signin', user.showLogin);  // 进入登录页面
 router.post('/signin', user.login);  // 登录校验
-//router.get('/userset', userSet.showUserSet()); //用户设置
-//router.post('/userset', userSet.userSet()); //用户设置
+router.get('/userset', userSet.showUserSet); //用户设置
+router.post('/userset', userSet.userSet); //用户设置
 
 router.get('/signout', user.signout);  // 登出
 //router.get('/search_pass', sign.showSearchPass);  // 找回密码页面
