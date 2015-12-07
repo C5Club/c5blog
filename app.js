@@ -52,14 +52,13 @@ app.use(function (req, res, next) {
 app.use(flash());
 app.use(errorPageMiddleware.errorPage);
 
+// routes
+app.use('/', webRouter);
 // error handler
 app.use(function (err, req, res, next) {
     console.error('server 500 error:', err);
     return res.status(500).send('500 status');
 });
-
-// routes
-app.use('/', webRouter);
 
 app.listen(config.port, function () {
     console.log('C5Club start----- on port', config.port);

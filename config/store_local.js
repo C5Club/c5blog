@@ -9,7 +9,7 @@ exports.upload = function (req, res) {
     var url = busboy.on('file', function (fieldname, file, filename, encoding, mimetype) {
         var newFilename = utility.md5(filename + String((new Date()).getTime())) +
             path.extname(filename);
-        var url = path.join(__dirname, '../public/uploads', path.basename(newFilename));
+        var url = path.join(__dirname, '../public/uploads', path.basename(newFilename)).toString;
         file.pipe(fs.createWriteStream(url));
         return url;
     });

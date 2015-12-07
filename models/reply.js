@@ -4,7 +4,7 @@
  * Time:22:00.
  */
 var mongoose  = require('mongoose');
-var BaseModel = require("./base_model");
+var BaseModel = require("./base");
 var Schema    = mongoose.Schema;
 var ObjectId  = Schema.ObjectId;
 
@@ -12,7 +12,6 @@ var ReplySchema = new Schema({
     content: { type: String },
     topic_id: { type: ObjectId},
     author_id: { type: ObjectId },
-    reply_id: { type: ObjectId },
     create_at: { type: Date, default: Date.now },
     update_at: { type: Date, default: Date.now },
     deleted: {type: Boolean, default: false}

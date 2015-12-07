@@ -18,7 +18,4 @@ var UserSetSchema = new Schema({
 
 UserSetSchema.plugin(BaseModel);
 
-UserSetSchema.index({user_id: 1}, {unique: true});
-UserSetSchema.index({school: 1}, {unique: true});
-
 mongoose.model('UserSet', UserSetSchema);

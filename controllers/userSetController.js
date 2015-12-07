@@ -7,7 +7,9 @@ var UserSet = require('../dao/userSetDao');
 var config = require('../config');
 var validator = require('validator');
 var eventproxy = require('eventproxy');
-var upload = require('../config/store_local');
+var Busboy = require('busboy');
+var fs = require('fs');
+var path = require('path');
 exports.showUserSet = function (req, res) {
     if (!req.session.user) {
         res.redirect('/');
@@ -20,18 +22,27 @@ exports.showUserSet = function (req, res) {
 
 exports.userSet = function (req, res, next) {
     //1、验证字段
-    var school = validator.trim(req.body.school);
-    var user_id = validator.trim(req.body.user_id);
-    var hobby = validator.trim(req.body.hobby);
     //2、上传
-    var photo = upload.upload(req, res);
-    console.log(photo);
-    //3、保存到db
-    UserSet.newAndSave(user_id, photo, hobby, school, function (err) {
-        if (err) {
-            return next(err);
-        }
-        res.redirect('/');
+    var photo = '';
+    var busboy = new Busboy({ headers: req.headers });
+    busboy.on('file', function (fieldname, file, filename, encoding, mimetype) {
+        //这里是设置下载后目录的（我是这样理解的，实际也是这样，若有不对的欢迎指正）
+        var saveTo = path.join(__dirname, '../public/uploads', path.basename(filename));
+        photo = saveTo;
+        file.pipe(fs.createWriteStream(saveTo));
     });
+    busboy.on('finish', function () {
+        var school = req.body.school;
+        var user_id = req.body.user_id;
+        var hobby = req.body.hobby;
+        console.log('school= ' + school);
+        UserSet.newAndSave(user_id, photo, hobby, school, function (err) {
+            if (err) {
+                return next(err);
+            }
+            res.redirect('/');
+        });
+    });
+    return req.pipe(busboy);
 }
 

@@ -17,16 +17,11 @@ exports.index = function (req, res) {
     });
 }
 exports.showSignup = function (req, res) {
-    if (!req.session.user) {
-        res.render('signup', {
-            title: '用户注册',
-            user: req.session.user
-        });
-    } else {
-        res.render('index', {
-            user: req.session.user
-        });
-    }
+
+    res.render('signup', {
+        title: '用户注册',
+        user: req.session.user
+    });
 }
 /**
  * 注册
@@ -99,17 +94,10 @@ exports.signup = function (req, res, next) {
 };
 
 exports.showLogin = function (req, res, next) {
-    if (!req.session.user) {
-        res.render('signin', {
-            title: '用户注册',
-            user: req.session.user | null
-        });
-    } else {
-        res.render('index', {
-            title: '用户注册',
-            user: req.session.user | null
-        });
-    }
+    res.render('signin', {
+        title: '登陆',
+        user: req.session.user | null
+    });
 };
 /**
  * 登录
@@ -163,3 +151,14 @@ exports.signout = function (req, res) {
     res.clearCookie(config.auth_cookie_name, { path: '/' });
     res.redirect('/');
 };
+exports.checkLogin = function (req, res, next) {
+    if (req.session.user) {
+        next();
+    } else {
+        res.render('signin', {
+            title: '首页',
+            user: req.session.user | null
+        });
+
+    }
+}

@@ -3,14 +3,6 @@
     <FIELDSET>
         <LEGEND>用户信息设置</LEGEND>
         <div class="control-group">
-            <label class="control-label" for="photo">头像</label>
-
-            <div class="controls">
-                <input type="file" class="input-xlarge" id="photo" name="photo">
-                <input type="hidden" value="<%= user._id %>">
-            </div>
-        </div>
-        <div class="control-group">
             <label class="control-label" for="school">学校</label>
 
             <div class="controls">
@@ -30,6 +22,14 @@
                     <option name="hobby" value="study">学习</option>
                 </select>
 
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="photo">头像</label>
+
+            <div class="controls">
+                <input type="file" class="input-xlarge" id="photo" name="photo">
+                <input type="hidden" id="user_id" name="user_id" value="<%= user._id %>">
             </div>
         </div>
         <div class="form-actions">

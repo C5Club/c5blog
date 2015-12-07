@@ -1,0 +1,24 @@
+<% include header.ejs %>
+<form class="form-horizontal" method="post">
+    <fieldset>
+        <legend>发表微博</legend>
+        <div class="control-group">
+            <label class="control-label" for="title">标题</label>
+
+            <div class="controls">
+                <input type="text" class="input-xlarge" id="title" name="title"></div>
+            <input type="hidden" id="user_id" name="user_id" value="<%= user._id %>">
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="content">内容</label>
+
+            <div class="controls">
+                <textarea class="input-xlarge" id="content" name="content" rows="6"></textarea></div>
+        </div>
+        <div class="form-actions">
+            <button type="submit" class="btn btn-primary">发表</button>
+            <button type="reset" class="btn btn-primary">重置</button>
+        </div>
+    </fieldset>
+</form>
+<% include footer.ejs %>

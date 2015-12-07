@@ -7,6 +7,7 @@ var express = require('express');
 var config = require('../config');
 var user = require('../controllers/userController');
 var userSet = require('../controllers/userSetController');
+var topic = require('../controllers/topicController');
 var router = express.Router();
 
 
@@ -15,9 +16,9 @@ router.get('/', user.index);
 
 router.get('/signup', user.showSignup);  // 跳转到注册页面
 router.post('/signup', user.signup);  // 提交注册信息
-router.get('/signin', user.showLogin);  // 进入登录页面
+router.get('/signin', user.checkLogin, user.showLogin);  // 进入登录页面
 router.post('/signin', user.login);  // 登录校验
-router.get('/userset', userSet.showUserSet); //用户设置
+router.get('/userset', user.checkLogin, userSet.showUserSet); //用户设置
 router.post('/userset', userSet.userSet); //用户设置
 
 router.get('/signout', user.signout);  // 登出
@@ -26,11 +27,9 @@ router.get('/signout', user.signout);  // 登出
 //router.get('/reset_pass', sign.resetPass);  // 进入重置密码页面
 //router.post('/reset_pass', sign.updatePass);  // 更新密码
 
-// message controler
-//router.get('/my/messages', auth.userRequired, message.index); // 用户个人的所有消息页
-
 // topic
-//router.get('/topic/create', auth.userRequired, topic.create);
+router.get('/create', user.checkLogin, topic.showCreate);
+router.post('/create', user.checkLogin, topic.create);
 //router.get('/topic/:tid', topic.index);  // 显示某个话题
 //router.post('/topic/:tid/top', auth.adminRequired, topic.top);  // 将某话题置顶
 //router.post('/topic/:tid/good', auth.adminRequired, topic.good); // 将某话题加精
@@ -53,7 +52,6 @@ router.get('/signout', user.signout);  // 登出
 //router.post('/reply/:reply_id/delete', auth.userRequired, reply.delete); // 删除某评论
 //router.post('/reply/:reply_id/up', auth.userRequired, reply.up); // 为评论点赞
 //router.post('/upload', auth.userRequired, topic.upload); //上传图片
-
 
 
 module.exports = router;
