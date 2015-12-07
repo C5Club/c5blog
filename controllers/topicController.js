@@ -11,7 +11,7 @@ var validator = require('validator');
 var eventproxy = require('eventproxy');
 var tools = require('../config/tools');
 exports.showCreate = function (req, res) {
-        res.render('topic', {
+        res.render('topic/create', {
             title: '发表微博',
             user: req.session.user
         });

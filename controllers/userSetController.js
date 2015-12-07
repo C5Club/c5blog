@@ -10,6 +10,8 @@ var eventproxy = require('eventproxy');
 var Busboy = require('busboy');
 var fs = require('fs');
 var path = require('path');
+var inspect = require('util').inspect;
+
 exports.showUserSet = function (req, res) {
     if (!req.session.user) {
         res.redirect('/');
@@ -24,18 +26,25 @@ exports.userSet = function (req, res, next) {
     //1、验证字段
     //2、上传
     var photo = '';
+    var school = '';
+    var user_id = '';
+    var hobby = '';
     var busboy = new Busboy({ headers: req.headers });
     busboy.on('file', function (fieldname, file, filename, encoding, mimetype) {
-        //这里是设置下载后目录的（我是这样理解的，实际也是这样，若有不对的欢迎指正）
         var saveTo = path.join(__dirname, '../public/uploads', path.basename(filename));
         photo = saveTo;
         file.pipe(fs.createWriteStream(saveTo));
     });
+    busboy.on('field', function (fieldname, val) {
+        if (fieldname == 'school')
+            school = validator.trim(inspect(val));
+        if (fieldname == 'hobby')
+            hobby = validator.trim(inspect(val));
+        user_id = req.session.user._id.toString();
+        console.log(user_id.length + '========')
+        console.log(user_id + '========');
+    });
     busboy.on('finish', function () {
-        var school = req.body.school;
-        var user_id = req.body.user_id;
-        var hobby = req.body.hobby;
-        console.log('school= ' + school);
         UserSet.newAndSave(user_id, photo, hobby, school, function (err) {
             if (err) {
                 return next(err);

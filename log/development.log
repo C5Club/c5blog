@@ -7150,3 +7150,1076 @@ Started 2015-12-06T10:30:06.497Z GET /javascripts/jquery.js ::1
 Started 2015-12-06T10:30:06.498Z GET /javascripts/bootstrap.js ::1
 Completed 304 
 Completed 304 
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-07T09:46:25.967Z GET / ::1
+Completed 304 
+
+
+Started 2015-12-07T09:46:26.637Z GET /stylesheets/bootstrap.css ::1
+
+
+Started 2015-12-07T09:46:26.639Z GET /stylesheets/bootstrap-responsive.css ::1
+
+
+Started 2015-12-07T09:46:26.641Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-07T09:46:26.641Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+Completed 304 
+Completed 304 
+
+
+Started 2015-12-07T09:46:27.390Z GET /favicon.ico ::1
+Completed 404 
+
+
+Started 2015-12-07T09:46:32.687Z GET /signin ::1
+Completed 200 
+
+
+Started 2015-12-07T09:46:32.912Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-12-07T09:46:32.920Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-12-07T09:46:32.925Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-07T09:46:32.926Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+
+
+Started 2015-12-07T09:46:34.253Z POST /signin ::1
+Completed 200 
+
+
+Started 2015-12-07T09:46:34.500Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-12-07T09:46:34.512Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-12-07T09:46:34.528Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-07T09:46:34.529Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+
+
+Started 2015-12-07T09:46:36.057Z GET /userset ::1
+Completed 304 
+
+
+Started 2015-12-07T09:46:36.227Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-12-07T09:46:36.229Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-12-07T09:46:36.233Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-12-07T09:46:36.237Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-12-07T09:46:47.233Z POST /userset ::1
+Completed 302 
+
+
+Started 2015-12-07T09:46:47.286Z GET / ::1
+Completed 200 
+
+
+Started 2015-12-07T09:46:47.437Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-12-07T09:46:47.455Z GET /stylesheets/bootstrap-responsive.css ::1
+
+
+Started 2015-12-07T09:46:47.456Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-07T09:46:47.457Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+Completed 304 
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-07T09:50:46.474Z GET / ::1
+Completed 304 
+
+
+Started 2015-12-07T09:50:46.645Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-12-07T09:50:46.659Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-12-07T09:50:46.665Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-12-07T09:50:46.675Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-12-07T09:50:50.680Z GET /userset ::1
+Completed 200 
+
+
+Started 2015-12-07T09:50:50.810Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-12-07T09:50:50.814Z GET /stylesheets/bootstrap-responsive.css ::1
+
+
+Started 2015-12-07T09:50:50.816Z GET /javascripts/jquery.js ::1
+Completed 304 
+Completed 304 
+
+
+Started 2015-12-07T09:50:50.819Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-12-07T09:51:00.704Z POST /userset ::1
+Completed 302 
+
+
+Started 2015-12-07T09:51:00.768Z GET / ::1
+Completed 304 
+
+
+Started 2015-12-07T09:51:01.023Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-12-07T09:51:01.029Z GET /stylesheets/bootstrap-responsive.css ::1
+
+
+Started 2015-12-07T09:51:01.030Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-07T09:51:01.031Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+Completed 304 
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-07T10:38:26.702Z GET / ::1
+Completed 304 
+
+
+Started 2015-12-07T10:38:26.950Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-12-07T10:38:26.964Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-12-07T10:38:26.968Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-12-07T10:38:26.971Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-12-07T10:38:28.325Z GET /create ::1
+Completed 304 
+
+
+Started 2015-12-07T10:38:28.452Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-12-07T10:38:28.459Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-12-07T10:38:28.464Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-07T10:38:28.465Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+
+
+Started 2015-12-07T10:38:29.262Z GET /userset ::1
+Completed 200 
+
+
+Started 2015-12-07T10:38:29.382Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-12-07T10:38:29.391Z GET /stylesheets/bootstrap-responsive.css ::1
+
+
+Started 2015-12-07T10:38:29.391Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-07T10:38:29.393Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+Completed 304 
+
+
+Started 2015-12-07T10:38:40.176Z GET /stylesheets/bootstrap.css ::1
+
+
+Started 2015-12-07T10:38:40.176Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+Completed 304 
+
+
+Started 2015-12-07T10:38:54.990Z POST /userset ::1
+Completed 302 
+
+
+Started 2015-12-07T10:38:55.046Z GET / ::1
+Completed 304 
+
+
+Started 2015-12-07T10:38:55.342Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-12-07T10:38:55.347Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-12-07T10:38:55.354Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-12-07T10:38:55.361Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-07T10:44:13.884Z GET / ::1
+Completed 304 
+
+
+Started 2015-12-07T10:44:14.140Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-12-07T10:44:14.153Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-12-07T10:44:14.160Z GET /javascripts/jquery.js ::1
+Completed 304 
+Completed 304 
+
+
+Started 2015-12-07T10:44:14.161Z GET /javascripts/bootstrap.js ::1
+
+
+Started 2015-12-07T10:44:16.339Z GET /userset ::1
+Completed 200 
+
+
+Started 2015-12-07T10:44:16.522Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-12-07T10:44:16.528Z GET /stylesheets/bootstrap-responsive.css ::1
+
+
+Started 2015-12-07T10:44:16.528Z GET /javascripts/jquery.js ::1
+Completed 304 
+Completed 304 
+
+
+Started 2015-12-07T10:44:16.530Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-12-07T10:44:24.613Z POST /userset ::1
+Completed 302 
+
+
+Started 2015-12-07T10:44:24.664Z GET / ::1
+Completed 304 
+
+
+Started 2015-12-07T10:44:24.768Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+Completed 304 
+
+
+Started 2015-12-07T10:44:24.780Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-12-07T10:44:24.785Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-12-07T10:44:24.775Z GET /stylesheets/bootstrap-responsive.css ::1
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-07T10:46:13.421Z GET /userset ::1
+Completed 200 
+
+
+Started 2015-12-07T10:46:13.682Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-12-07T10:46:13.695Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-12-07T10:46:13.703Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-07T10:46:13.704Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+
+
+Started 2015-12-07T10:46:21.720Z POST /userset ::1
+Completed 302 
+
+
+Started 2015-12-07T10:46:21.770Z GET / ::1
+Completed 304 
+Completed 304 
+
+
+Started 2015-12-07T10:46:21.951Z GET /stylesheets/bootstrap-responsive.css ::1
+
+
+Started 2015-12-07T10:46:21.953Z GET /javascripts/jquery.js ::1
+Completed 304 
+Completed 304 
+
+
+Started 2015-12-07T10:46:21.957Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-12-07T10:46:21.947Z GET /stylesheets/bootstrap.css ::1
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-07T10:50:24.081Z GET /userset ::1
+Completed 200 
+
+
+Started 2015-12-07T10:50:24.336Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-12-07T10:50:24.350Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-12-07T10:50:24.357Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-12-07T10:50:24.360Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-12-07T10:50:34.676Z POST /userset ::1
+Completed 500 
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-07T10:54:37.849Z GET /userset ::1
+Completed 304 
+
+
+Started 2015-12-07T10:54:38.106Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-12-07T10:54:38.120Z GET /stylesheets/bootstrap-responsive.css ::1
+
+
+Started 2015-12-07T10:54:38.127Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-07T10:54:38.128Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+Completed 304 
+
+
+Started 2015-12-07T10:54:46.717Z POST /userset ::1
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-07T10:57:08.507Z GET /userset ::1
+Completed 304 
+
+
+Started 2015-12-07T10:57:08.736Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-12-07T10:57:08.751Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-12-07T10:57:08.756Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-07T10:57:08.757Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+
+
+Started 2015-12-07T10:57:18.354Z POST /userset ::1
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-07T10:59:04.825Z GET /userset ::1
+Completed 304 
+
+
+Started 2015-12-07T10:59:05.067Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-12-07T10:59:05.078Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+Completed 304 
+
+
+Started 2015-12-07T10:59:05.086Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-12-07T10:59:05.083Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-07T10:59:13.613Z POST /userset ::1
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-07T11:01:34.032Z GET /userset ::1
+Completed 304 
+
+
+Started 2015-12-07T11:01:34.278Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-12-07T11:01:34.291Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-12-07T11:01:34.298Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-12-07T11:01:34.302Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-12-07T11:01:42.644Z POST /userset ::1
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-07T11:13:07.125Z GET /userset ::1
+Completed 304 
+
+
+Started 2015-12-07T11:13:07.378Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-12-07T11:13:07.392Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-12-07T11:13:07.400Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-07T11:13:07.401Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+
+
+Started 2015-12-07T11:13:15.564Z POST /userset ::1
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-07T11:16:21.639Z GET /userset ::1
+Completed 304 
+
+
+Started 2015-12-07T11:16:21.875Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-12-07T11:16:21.886Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-12-07T11:16:21.894Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-07T11:16:21.895Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+
+
+Started 2015-12-07T11:16:33.499Z POST /userset ::1
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-07T11:21:07.360Z GET /userset ::1
+Completed 304 
+
+
+Started 2015-12-07T11:21:07.596Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-12-07T11:21:07.611Z GET /stylesheets/bootstrap-responsive.css ::1
+
+
+Started 2015-12-07T11:21:07.612Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-07T11:21:07.612Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+Completed 304 
+
+
+Started 2015-12-07T11:21:15.829Z POST /userset ::1
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-07T11:23:31.910Z GET /userset ::1
+Completed 304 
+
+
+Started 2015-12-07T11:23:32.155Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-12-07T11:23:32.170Z GET /stylesheets/bootstrap-responsive.css ::1
+
+
+Started 2015-12-07T11:23:32.171Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-07T11:23:32.171Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+Completed 304 
+
+
+Started 2015-12-07T11:23:39.779Z POST /userset ::1
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-07T11:27:14.605Z GET /userset ::1
+Completed 304 
+
+
+Started 2015-12-07T11:27:14.847Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-12-07T11:27:14.860Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-12-07T11:27:14.864Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-12-07T11:27:14.868Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-12-07T11:27:22.893Z POST /userset ::1
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-07T11:27:43.020Z GET /userset ::1
+Completed 304 
+
+
+Started 2015-12-07T11:27:43.306Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-12-07T11:27:43.316Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-12-07T11:27:43.325Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-07T11:27:43.325Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+
+
+Started 2015-12-07T11:27:50.841Z GET /stylesheets/bootstrap.css ::1
+
+
+Started 2015-12-07T11:27:50.842Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+Completed 304 
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-07T11:30:25.471Z GET /userset ::1
+Completed 200 
+
+
+Started 2015-12-07T11:30:25.853Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-12-07T11:30:25.864Z GET /stylesheets/bootstrap-responsive.css ::1
+
+
+Started 2015-12-07T11:30:25.865Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-07T11:30:25.865Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+Completed 304 
+
+
+Started 2015-12-07T11:30:35.343Z POST /userset ::1
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-07T11:32:20.380Z GET /userset ::1
+Completed 200 
+
+
+Started 2015-12-07T11:32:20.619Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-12-07T11:32:20.630Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-12-07T11:32:20.637Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-07T11:32:20.638Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+
+
+Started 2015-12-07T11:32:29.359Z POST /userset ::1
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-07T11:33:12.310Z GET /userset ::1
+Completed 304 
+
+
+Started 2015-12-07T11:33:12.548Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-12-07T11:33:12.559Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-12-07T11:33:12.566Z GET /javascripts/jquery.js ::1
+Completed 304 
+Completed 304 
+
+
+Started 2015-12-07T11:33:12.568Z GET /javascripts/bootstrap.js ::1
+
+
+Started 2015-12-07T11:33:21.463Z POST /userset ::1
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-07T11:38:09.008Z GET /userset ::1
+Completed 304 
+
+
+Started 2015-12-07T11:38:09.237Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-12-07T11:38:09.254Z GET /stylesheets/bootstrap-responsive.css ::1
+
+
+Started 2015-12-07T11:38:09.255Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-07T11:38:09.256Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+Completed 304 
+
+
+Started 2015-12-07T11:38:15.465Z POST /userset ::1
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-07T11:40:50.788Z GET /userset ::1
+Completed 304 
+
+
+Started 2015-12-07T11:40:51.026Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-12-07T11:40:51.038Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-12-07T11:40:51.045Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-07T11:40:51.046Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+
+
+Started 2015-12-07T11:40:57.424Z POST /userset ::1
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-07T11:47:08.557Z GET /userset ::1
+Completed 200 
+
+
+Started 2015-12-07T11:47:08.805Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-12-07T11:47:08.817Z GET /stylesheets/bootstrap-responsive.css ::1
+
+
+Started 2015-12-07T11:47:08.822Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-12-07T11:47:08.826Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+
+
+Started 2015-12-07T11:47:11.910Z GET /stylesheets/bootstrap.css ::1
+
+
+Started 2015-12-07T11:47:11.910Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+Completed 304 
+
+
+Started 2015-12-07T11:47:43.782Z GET /userset ::1
+Completed 500 
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-07T13:35:51.502Z GET / ::1
+Completed 200 
+
+
+Started 2015-12-07T13:35:52.174Z GET /stylesheets/bootstrap.css ::1
+
+
+Started 2015-12-07T13:35:52.178Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-12-07T13:35:52.189Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-07T13:35:52.190Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+Completed 304 
+
+
+Started 2015-12-07T13:35:52.886Z GET /favicon.ico ::1
+Completed 404 
+
+
+Started 2015-12-07T13:35:55.541Z GET /signin ::1
+Completed 200 
+
+
+Started 2015-12-07T13:35:55.721Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-12-07T13:35:55.729Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-12-07T13:35:55.734Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-12-07T13:35:55.741Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-12-07T13:35:57.122Z POST /signin ::1
+Completed 200 
+
+
+Started 2015-12-07T13:35:57.300Z GET /stylesheets/bootstrap.css ::1
+
+
+Started 2015-12-07T13:35:57.301Z GET /stylesheets/bootstrap-responsive.css ::1
+
+
+Started 2015-12-07T13:35:57.302Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-07T13:35:57.302Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+Completed 304 
+Completed 304 
+
+
+Started 2015-12-07T13:35:59.156Z GET /userset ::1
+Completed 200 
+
+
+Started 2015-12-07T13:35:59.273Z GET /stylesheets/bootstrap.css ::1
+
+
+Started 2015-12-07T13:35:59.275Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+Completed 304 
+
+
+Started 2015-12-07T13:35:59.283Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-07T13:35:59.284Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+Completed 304 
+
+
+Started 2015-12-07T13:36:06.755Z POST /userset ::1
+Completed 302 
+
+
+Started 2015-12-07T13:36:06.807Z GET / ::1
+Completed 200 
+
+
+Started 2015-12-07T13:36:06.939Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-12-07T13:36:06.946Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-12-07T13:36:06.954Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-12-07T13:36:06.962Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-07T13:45:53.536Z GET /create ::1
+Completed 404 
+
+
+Started 2015-12-07T13:46:34.096Z GET /create ::1
+Completed 404 
+
+
+Started 2015-12-07T13:46:35.940Z GET /create ::1
+Completed 404 
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-07T13:46:48.551Z GET / ::1
+
+
+Started 2015-12-07T13:46:48.620Z GET / ::1
+Completed 200 
+
+
+Started 2015-12-07T13:46:48.859Z GET /stylesheets/bootstrap.css ::1
+Completed 304 
+
+
+Started 2015-12-07T13:46:48.870Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 304 
+
+
+Started 2015-12-07T13:46:48.879Z GET /javascripts/jquery.js ::1
+Completed 304 
+
+
+Started 2015-12-07T13:46:48.883Z GET /javascripts/bootstrap.js ::1
+Completed 304 
+
+
+Started 2015-12-07T13:46:50.647Z GET /topic/create ::1
+Completed 500 
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-07T13:47:23.848Z GET /topic/create ::1
+Completed 200 
+
+
+Started 2015-12-07T13:47:24.135Z GET /topic/stylesheets/bootstrap.css ::1
+Completed 404 
+
+
+Started 2015-12-07T13:47:24.154Z GET /topic/stylesheets/bootstrap-responsive.css ::1
+
+
+Started 2015-12-07T13:47:24.157Z GET /topic/javascripts/jquery.js ::1
+
+
+Started 2015-12-07T13:47:24.162Z GET /topic/javascripts/bootstrap.js ::1
+Completed 404 
+Completed 404 
+Completed 404 
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-07T13:58:07.658Z GET /topic/create ::1
+Completed 304 
+
+
+Started 2015-12-07T13:58:08.011Z GET /topic/stylesheets/bootstrap.css ::1
+
+
+Started 2015-12-07T13:58:08.016Z GET /topic/stylesheets/bootstrap-responsive.css ::1
+
+
+Started 2015-12-07T13:58:08.019Z GET /topic/javascripts/jquery.js ::1
+
+
+Started 2015-12-07T13:58:08.022Z GET /topic/javascripts/bootstrap.js ::1
+Completed 404 
+Completed 404 
+Completed 404 
+Completed 404 
+
+
+Started 2015-12-07T13:58:26.168Z GET / ::1
+Completed 304 
+
+
+Started 2015-12-07T13:58:26.396Z GET /stylesheets/bootstrap.css ::1
+Completed 404 
+
+
+Started 2015-12-07T13:58:26.415Z GET /stylesheets/bootstrap-responsive.css ::1
+Completed 404 
+
+
+Started 2015-12-07T13:58:26.426Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-07T13:58:26.431Z GET /javascripts/bootstrap.js ::1
+Completed 404 
+Completed 404 
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-07T14:00:50.740Z GET / ::1
+Completed 200 
+
+
+Started 2015-12-07T14:00:51.052Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-07T14:00:51.064Z GET /javascripts/bootstrap.js ::1
+Completed 404 
+Completed 404 
+
+
+Started 2015-12-07T14:00:53.553Z GET /topic/create ::1
+Completed 200 
+
+
+Started 2015-12-07T14:00:53.693Z GET /topic/javascripts/jquery.js ::1
+
+
+Started 2015-12-07T14:00:53.695Z GET /topic/javascripts/bootstrap.js ::1
+Completed 404 
+Completed 404 
+
+
+Started 2015-12-07T14:00:57.249Z GET /userset ::1
+Completed 200 
+
+
+Started 2015-12-07T14:00:57.391Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-07T14:00:57.395Z GET /javascripts/bootstrap.js ::1
+Completed 404 
+Completed 404 
+
+
+Started 2015-12-07T14:00:58.664Z GET / ::1
+Completed 304 
+
+
+Started 2015-12-07T14:00:58.798Z GET /javascripts/jquery.js ::1
+Completed 404 
+
+
+Started 2015-12-07T14:00:58.808Z GET /javascripts/bootstrap.js ::1
+Completed 404 
+
+
+Started 2015-12-07T14:01:02.241Z GET /topic/create ::1
+Completed 304 
+
+
+Started 2015-12-07T14:01:02.386Z GET /topic/javascripts/jquery.js ::1
+Completed 404 
+
+
+Started 2015-12-07T14:01:02.404Z GET /topic/javascripts/bootstrap.js ::1
+Completed 404 

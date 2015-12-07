@@ -28,7 +28,7 @@ router.get('/signout', user.signout);  // 登出
 //router.post('/reset_pass', sign.updatePass);  // 更新密码
 
 // topic
-router.get('/create', user.checkLogin, topic.showCreate);
+router.get('/topic/create', user.checkLogin, topic.showCreate);
 router.post('/create', user.checkLogin, topic.create);
 //router.get('/topic/:tid', topic.index);  // 显示某个话题
 //router.post('/topic/:tid/top', auth.adminRequired, topic.top);  // 将某话题置顶

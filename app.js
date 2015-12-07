@@ -24,7 +24,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 app.use(requestLog);
-app.use(express.static(path.join(__dirname, 'public')));
+app.use('/public',express.static(path.join(__dirname, 'public')));
 // 通用的中间件
 app.use(require('response-time')());
 app.use(bodyParser.json({limit: '1mb'}));
