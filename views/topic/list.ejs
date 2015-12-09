@@ -1,0 +1,19 @@
+<% topics.forEach(function(topic, index) {
+        if (index % 3 == 0) { %>
+<div class="row">
+    <% } %>
+    <div class="span4">
+        <h3><%= topic.title %></h3>
+
+        <p>
+            <small><%= topic.create_at %></small>
+        </p>
+        <p><%= topic.content %></p>
+    </div>
+    <% if (index % 3 == 2) { %>
+</div><!-- end row -->
+<% } %>
+<% }) %>
+<% if (topics.length % 3 != 0) { %>
+</div><!-- end row -->
+<% } %>

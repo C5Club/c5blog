@@ -25,12 +25,16 @@ exports.delete = function (topic_id, callback) {
 
 
 };
+exports.update = function (id, callback) {
+    Topic.updateOne({_id: id}, callback);
+};
 exports.getCountByQuery = function (query, callback) {
     Topic.count(query, callback);
 };
 exports.getArticleById = function (id, callback) {
     Topic.findOne({_id: id}, callback);
 };
-exports.getAllTopic = function () {
-    
+exports.getAllTopic = function (callback) {
+    Topic.find(callback);
+
 }

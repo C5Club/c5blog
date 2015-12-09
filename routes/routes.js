@@ -29,7 +29,10 @@ router.get('/signout', user.signout);  // 登出
 
 // topic
 router.get('/topic/create', user.checkLogin, topic.showCreate);
-router.post('/create', user.checkLogin, topic.create);
+router.post('/topic/create', user.checkLogin, topic.create);
+router.get('/topic/edit', user.checkLogin, topic.showCreate);
+router.post('/topic/edit', user.checkLogin, topic.showEdit);
+
 //router.get('/topic/:tid', topic.index);  // 显示某个话题
 //router.post('/topic/:tid/top', auth.adminRequired, topic.top);  // 将某话题置顶
 //router.post('/topic/:tid/good', auth.adminRequired, topic.good); // 将某话题加精

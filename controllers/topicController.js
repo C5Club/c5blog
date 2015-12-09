@@ -16,8 +16,27 @@ exports.showCreate = function (req, res) {
             user: req.session.user
         });
 }
+exports.showEdit = function (req, res) {
+        res.render('topic/edit', {
+            title: '修改微博',
+            user: req.session.user
+        });
+}
 
 exports.create = function (req, res, next) {
+    var user_id = req.body.user_id;
+    var title = req.body.title;
+    var content = req.body.content;
+    console.log(user_id+'-----');
+    Topic.newAndSave(user_id,title,content,function (err){
+        if (err) {
+            return next(err);
+        }else{
+            res.redirect('/');
+        }
+    });
+};
+exports.edit = function (req, res, next) {
     var user_id = req.body.user_id;
     var title = req.body.title;
     var content = req.body.content;

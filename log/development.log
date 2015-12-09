@@ -8223,3 +8223,399 @@ Completed 404
 
 Started 2015-12-07T14:01:02.404Z GET /topic/javascripts/bootstrap.js ::1
 Completed 404 
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-07T14:19:10.491Z GET / ::1
+Completed 200 
+
+
+Started 2015-12-07T14:19:10.839Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-07T14:19:10.848Z GET /javascripts/bootstrap.js ::1
+Completed 404 
+Completed 404 
+
+
+Started 2015-12-07T14:19:11.353Z GET /favicon.ico ::1
+Completed 404 
+
+
+Started 2015-12-07T14:20:55.448Z GET / ::1
+Completed 200 
+
+
+Started 2015-12-07T14:20:55.720Z GET /javascripts/jquery.js ::1
+Completed 404 
+
+
+Started 2015-12-07T14:20:55.729Z GET /javascripts/bootstrap.js ::1
+Completed 404 
+
+
+Started 2015-12-07T14:21:11.773Z GET /signin ::1
+Completed 200 
+
+
+Started 2015-12-07T14:21:11.970Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-07T14:21:11.972Z GET /javascripts/bootstrap.js ::1
+Completed 404 
+Completed 404 
+
+
+Started 2015-12-07T14:21:13.201Z POST /signin ::1
+Completed 200 
+
+
+Started 2015-12-07T14:21:13.420Z GET /javascripts/jquery.js ::1
+Completed 404 
+
+
+Started 2015-12-07T14:21:13.432Z GET /javascripts/bootstrap.js ::1
+Completed 404 
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-08T16:29:55.650Z GET / ::1
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-08T16:38:56.468Z GET / ::1
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-08T16:41:23.827Z GET /topic/create ::1
+Completed 200 
+
+
+Started 2015-12-08T16:41:24.370Z GET /topic/javascripts/jquery.js ::1
+
+
+Started 2015-12-08T16:41:24.377Z GET /topic/javascripts/bootstrap.js ::1
+Completed 404 
+Completed 404 
+
+
+Started 2015-12-08T16:41:28.190Z POST /topic/create ::1
+Completed 404 
+
+
+Started 2015-12-08T16:41:36.100Z GET /topic/create ::1
+Completed 304 
+
+
+Started 2015-12-08T16:41:36.329Z GET /topic/javascripts/jquery.js ::1
+
+
+Started 2015-12-08T16:41:36.332Z GET /topic/javascripts/bootstrap.js ::1
+Completed 404 
+Completed 404 
+
+
+Started 2015-12-08T16:41:38.701Z POST /topic/create ::1
+Completed 404 
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-08T16:42:50.685Z POST /topic/create ::1
+Completed 404 
+
+
+Started 2015-12-08T16:43:36.400Z GET /topic/create ::1
+Completed 200 
+
+
+Started 2015-12-08T16:43:36.647Z GET /topic/javascripts/jquery.js ::1
+Completed 404 
+
+
+Started 2015-12-08T16:43:36.656Z GET /topic/javascripts/bootstrap.js ::1
+Completed 404 
+
+
+Started 2015-12-08T16:43:38.344Z GET / ::1
+
+
+Started 2015-12-08T16:43:39.297Z GET / ::1
+
+
+Started 2015-12-08T16:43:40.359Z GET / ::1
+
+
+Started 2015-12-08T16:43:42.456Z POST /signin ::1
+Completed 200 
+
+
+Started 2015-12-08T16:43:42.816Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-08T16:43:42.818Z GET /javascripts/bootstrap.js ::1
+Completed 404 
+Completed 404 
+
+
+Started 2015-12-08T16:43:50.104Z GET /topic/create ::1
+Completed 200 
+
+
+Started 2015-12-08T16:43:50.825Z GET /topic/javascripts/jquery.js ::1
+
+
+Started 2015-12-08T16:43:50.828Z GET /topic/javascripts/bootstrap.js ::1
+Completed 404 
+Completed 404 
+
+
+Started 2015-12-08T16:44:09.174Z POST /topic/create ::1
+Completed 404 
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-08T16:45:37.680Z GET /topic/create ::1
+Completed 200 
+
+
+Started 2015-12-08T16:45:37.985Z GET /topic/javascripts/jquery.js ::1
+
+
+Started 2015-12-08T16:45:37.996Z GET /topic/javascripts/bootstrap.js ::1
+Completed 404 
+Completed 404 
+
+
+Started 2015-12-08T16:46:05.343Z POST /topic/create ::1
+Completed 302 
+
+
+Started 2015-12-08T16:46:05.424Z GET / ::1
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-08T16:50:18.830Z GET / ::1
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-09T12:54:14.714Z GET / ::1
+Completed 200 
+
+
+Started 2015-12-09T12:54:15.361Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-09T12:54:15.366Z GET /javascripts/bootstrap.js ::1
+Completed 404 
+Completed 404 
+
+
+Started 2015-12-09T12:54:17.100Z GET /signin ::1
+Completed 200 
+
+
+Started 2015-12-09T12:54:17.277Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-09T12:54:17.279Z GET /javascripts/bootstrap.js ::1
+Completed 404 
+Completed 404 
+
+
+Started 2015-12-09T12:54:18.425Z POST /signin ::1
+Completed 200 
+
+
+Started 2015-12-09T12:54:18.875Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-09T12:54:18.878Z GET /javascripts/bootstrap.js ::1
+Completed 404 
+Completed 404 
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-09T12:56:07.970Z GET / ::1
+Completed 200 
+
+
+Started 2015-12-09T12:56:08.283Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-09T12:56:08.287Z GET /javascripts/bootstrap.js ::1
+Completed 404 
+Completed 404 
+
+
+Started 2015-12-09T12:56:38.153Z GET / ::1
+Completed 200 
+
+
+Started 2015-12-09T12:56:38.586Z GET /javascripts/jquery.js ::1
+Completed 404 
+
+
+Started 2015-12-09T12:56:38.607Z GET /javascripts/bootstrap.js ::1
+Completed 404 
+
+
+Started 2015-12-09T12:56:38.981Z GET /favicon.ico ::1
+Completed 404 
+
+
+Started 2015-12-09T12:56:53.802Z GET /topic/create ::1
+Completed 200 
+
+
+Started 2015-12-09T12:56:54.149Z GET /topic/javascripts/jquery.js ::1
+Completed 404 
+
+
+Started 2015-12-09T12:56:54.159Z GET /topic/javascripts/bootstrap.js ::1
+Completed 404 
+
+
+Started 2015-12-09T12:57:37.830Z POST /topic/create ::1
+Completed 302 
+
+
+Started 2015-12-09T12:57:37.904Z GET / ::1
+Completed 200 
+
+
+Started 2015-12-09T12:57:38.113Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-09T12:57:38.114Z GET /javascripts/bootstrap.js ::1
+Completed 404 
+Completed 404 
+
+
+Started 2015-12-09T12:57:40.954Z GET /topic/create ::1
+Completed 200 
+
+
+Started 2015-12-09T12:57:41.092Z GET /topic/javascripts/jquery.js ::1
+
+
+Started 2015-12-09T12:57:41.095Z GET /topic/javascripts/bootstrap.js ::1
+Completed 404 
+Completed 404 
+
+
+Started 2015-12-09T12:58:42.058Z POST /topic/create ::1
+Completed 302 
+
+
+Started 2015-12-09T12:58:42.077Z GET / ::1
+Completed 200 
+
+
+Started 2015-12-09T12:58:42.326Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-09T12:58:42.327Z GET /javascripts/bootstrap.js ::1
+Completed 404 
+Completed 404 
+
+
+Started 2015-12-09T12:59:42.517Z GET / ::1
+Completed 200 
+
+
+Started 2015-12-09T12:59:42.814Z GET /javascripts/jquery.js ::1
+Completed 404 
+
+
+Started 2015-12-09T12:59:42.824Z GET /javascripts/bootstrap.js ::1
+Completed 404 
+
+
+Started 2015-12-09T12:59:45.087Z GET / ::1
+Completed 304 
+
+
+Started 2015-12-09T12:59:45.270Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-09T12:59:45.272Z GET /javascripts/bootstrap.js ::1
+Completed 404 
+Completed 404 
+
+
+Started 2015-12-09T12:59:45.484Z GET / ::1
+Completed 304 
+
+
+Started 2015-12-09T12:59:45.624Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-09T12:59:45.625Z GET /javascripts/bootstrap.js ::1
+Completed 404 
+Completed 404 
+
+
+Started 2015-12-09T12:59:45.701Z GET / ::1
+Completed 304 
+
+
+Started 2015-12-09T12:59:45.922Z GET /javascripts/jquery.js ::1
+Completed 404 
+
+
+Started 2015-12-09T12:59:45.931Z GET /javascripts/bootstrap.js ::1
+Completed 404 
+
+
+Started 2015-12-09T12:59:47.412Z GET / ::1
+Completed 304 
+
+
+Started 2015-12-09T12:59:47.546Z GET /javascripts/jquery.js ::1
+Completed 404 
+
+
+Started 2015-12-09T12:59:47.553Z GET /javascripts/bootstrap.js ::1
+Completed 404 
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-09T12:59:55.906Z GET / ::1
+Completed 304 
+
+
+Started 2015-12-09T12:59:56.100Z GET /javascripts/jquery.js ::1
+Completed 404 
+
+
+Started 2015-12-09T12:59:56.114Z GET /javascripts/bootstrap.js ::1
+Completed 404 
+
+
+Started 2015-12-09T12:59:57.873Z GET / ::1
+Completed 304 
+
+
+Started 2015-12-09T12:59:58.003Z GET /javascripts/jquery.js ::1
+
+
+Started 2015-12-09T12:59:58.005Z GET /javascripts/bootstrap.js ::1
+Completed 404 
+Completed 404 
+
+
+Started 2015-12-09T13:00:45.416Z GET / ::1
+Completed 200 
+
+
+Started 2015-12-09T13:00:47.639Z GET / ::1
+Completed 304 
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-09T13:00:55.792Z GET / ::1
+Completed 304 
+
+
+Started 2015-12-09T13:00:58.265Z GET / ::1
+Completed 304 

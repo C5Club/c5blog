@@ -6,15 +6,24 @@
  */
 
 var User = require('../dao/userDao');
+var Topic = require('../dao/topicDao');
 var config = require('../config');
 var validator = require('validator');
 var eventproxy = require('eventproxy');
 var tools = require('../config/tools');
 exports.index = function (req, res) {
-    res.render('index', {
-        title: '首页',
-        user: req.session.user
+    Topic.getAllTopic(function (err, topics) {
+        if (err) {
+            console.log(err);
+            return;
+        }
+        res.render('index', {
+            title: '首页',
+            user: req.session.user,
+            topics: topics
+        });
     });
+
 }
 exports.showSignup = function (req, res) {
 
