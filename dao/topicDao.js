@@ -31,8 +31,8 @@ exports.update = function (id, callback) {
 exports.getCountByQuery = function (query, callback) {
     Topic.count(query, callback);
 };
-exports.getArticleById = function (id, callback) {
-    Topic.findOne({_id: id}, callback);
+exports.getArticleById = function (id, data, callback) {
+    Topic.findOne({_id: id}, data, callback);
 };
 exports.getAllTopic = function (callback) {
     Topic.find(callback);

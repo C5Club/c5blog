@@ -8619,3 +8619,77 @@ Completed 304
 
 Started 2015-12-09T13:00:58.265Z GET / ::1
 Completed 304 
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-10T05:14:23.746Z GET / ::1
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-10T08:18:12.931Z GET / ::1
+Completed 200 
+
+
+Started 2015-12-10T08:18:18.421Z GET /signin ::1
+Completed 200 
+
+
+Started 2015-12-10T08:18:19.660Z POST /signin ::1
+Completed 500 
+
+
+Started 2015-12-10T08:18:50.404Z GET / ::1
+Completed 200 
+
+
+Started 2015-12-10T08:18:55.373Z GET /topic/create ::1
+Completed 200 
+
+
+Started 2015-12-10T08:19:01.524Z POST /topic/create ::1
+Completed 302 
+
+
+Started 2015-12-10T08:19:01.566Z GET / ::1
+Completed 200 
+
+
+Started 2015-12-10T08:19:26.660Z GET /userset ::1
+Completed 200 
+
+
+Started 2015-12-10T08:19:56.819Z POST /userset ::1
+Completed 302 
+
+
+Started 2015-12-10T08:19:57.211Z GET / ::1
+Completed 304 
+
+
+Started 2015-12-10T08:20:06.412Z GET /userset ::1
+Completed 200 
+
+
+Started 2015-12-10T08:20:09.570Z GET / ::1
+Completed 304 
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-10T08:25:14.492Z GET /signout ::1
+Completed 302 
+
+
+Started 2015-12-10T08:25:14.539Z GET / ::1
+Completed 200 
+
+
+Started 2015-12-10T08:25:16.450Z GET /signin ::1
+Completed 304 
+
+
+Started 2015-12-10T08:25:18.145Z POST /signin ::1
+Completed 302 
+
+
+Started 2015-12-10T08:25:18.182Z GET / ::1
+Completed 200 

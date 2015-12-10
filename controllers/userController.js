@@ -148,10 +148,7 @@ exports.login = function (req, res, next) {
         req.session.user = user;
         console.log(req.session);
         req.flash('success', '登入成功');
-        res.render('index', {
-                user: req.session.user
-            }
-        );
+        res.redirect('/');
     });
 };
 

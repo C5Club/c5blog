@@ -32,6 +32,7 @@ router.get('/topic/create', user.checkLogin, topic.showCreate);
 router.post('/topic/create', user.checkLogin, topic.create);
 router.get('/topic/edit', user.checkLogin, topic.showCreate);
 router.post('/topic/edit', user.checkLogin, topic.showEdit);
+//router.post('/topic/delete', user.checkLogin, topic.delete);
 
 //router.get('/topic/:tid', topic.index);  // 显示某个话题
 //router.post('/topic/:tid/top', auth.adminRequired, topic.top);  // 将某话题置顶
