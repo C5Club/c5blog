@@ -16,7 +16,8 @@ bcrypt.genSalt(10, function (err, salt) {
 //redis test
 //var Topic = require('../models/db').Topic;
 var config = require('../config');
-var Topic = require('../dao/topicDao')
+//var Topic = require('../dao/topicDao')
+var log = require('../config/logger');
 // mongo test
 //User.newAndSave('aaaaa', 'test', '123456', 'aaa@aa.com', false, function (err) {
 //    if (err) {
@@ -31,8 +32,9 @@ var Topic = require('../dao/topicDao')
     console.log(docs.length+'========');
 });*/
 
+/*
 Topic.getAllTopic(function(err,topics){
     if (err)
         console.log(err);
     console.log(topics.length+'========');
-});
+});*/

@@ -30,8 +30,8 @@ router.get('/signout', user.signout);  // 登出
 // topic
 router.get('/topic/create', user.checkLogin, topic.showCreate);
 router.post('/topic/create', user.checkLogin, topic.create);
-router.get('/topic/edit', user.checkLogin, topic.showCreate);
-router.post('/topic/edit', user.checkLogin, topic.showEdit);
+router.get('/topic/edit', user.checkLogin, topic.showEdit);
+router.post('/topic/edit', user.checkLogin, topic.edit);
 //router.post('/topic/delete', user.checkLogin, topic.delete);
 
 //router.get('/topic/:tid', topic.index);  // 显示某个话题

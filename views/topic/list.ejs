@@ -3,7 +3,7 @@
 <div class="row">
     <% } %>
     <div class="span4">
-        <h3><%= topic.title %></h3>
+        <h3><a href="/topic/edit?topic_id=<%= topic._id %>"><%= topic.title %></a></h3>
 
         <p>
             <small><%= topic.create_at %></small>

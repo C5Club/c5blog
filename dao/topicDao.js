@@ -25,13 +25,13 @@ exports.delete = function (topic_id, callback) {
 
 
 };
-exports.update = function (id, callback) {
-    Topic.updateOne({_id: id}, callback);
+exports.update = function (id, data, callback) {
+    Topic.findByIdAndUpdate({_id: id}, {'$set': data}, callback);
 };
 exports.getCountByQuery = function (query, callback) {
     Topic.count(query, callback);
 };
-exports.getArticleById = function (id, data, callback) {
+exports.getTopicById = function (id, data, callback) {
     Topic.findOne({_id: id}, data, callback);
 };
 exports.getAllTopic = function (callback) {
