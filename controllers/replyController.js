@@ -69,7 +69,7 @@ exports.edit = function (req, res, next) {
 };
 
 exports.delete = function (req, res, next) {
-    var id = req.param('topic_id');
+    var id = req.body.topic_id;
     Topic.delete(id, function (err, callback) {
         if (err) {
             Log.error(err);

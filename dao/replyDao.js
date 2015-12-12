@@ -35,6 +35,6 @@ exports.getTopicById = function (id, data, callback) {
     Topic.findOne({_id: id}, data, callback);
 };
 exports.getAllTopic = function (callback) {
-    Topic.find({deleted: false}, callback);
+    Topic.find(callback);
 
 }

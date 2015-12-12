@@ -95,6 +95,7 @@ exports.signup = function (req, res, next) {
             }
             req.session.user = user;
             res.render('index', {
+                title: '首页',
                 success: req.flash('欢迎！').toString(),
                 user: req.session.user
             });

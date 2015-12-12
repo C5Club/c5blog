@@ -8971,3 +8971,58 @@ Completed 200
 
 Started 2015-12-10T16:28:13.223Z GET / ::1
 Completed 304 
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-12T05:24:22.997Z GET / ::1
+Completed 200 
+
+
+Started 2015-12-12T05:24:24.165Z GET /favicon.ico ::1
+Completed 404 
+
+
+Started 2015-12-12T05:24:26.428Z GET /signin ::1
+Completed 200 
+
+
+Started 2015-12-12T05:24:28.541Z POST /signin ::1
+Completed 302 
+
+
+Started 2015-12-12T05:24:28.693Z GET / ::1
+Completed 200 
+
+
+Started 2015-12-12T05:24:32.740Z GET /topic/edit?topic_id=56682541e368db8c05160969 ::1
+Completed 200 
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-12T05:26:45.326Z GET / ::1
+Completed 304 
+
+
+Started 2015-12-12T05:26:48.236Z GET /topic/edit?topic_id=56640cdfd3b10ce019268b5b ::1
+Completed 200 
+
+
+Started 2015-12-12T05:26:51.287Z GET /topic/delete?topic_id=56640cdfd3b10ce019268b5b ::1
+Completed 404 
+You can debug your app with http://localhost:3000
+
+
+Started 2015-12-12T05:27:39.533Z GET / ::1
+Completed 304 
+
+
+Started 2015-12-12T05:27:42.493Z GET /topic/edit?topic_id=56640cdfd3b10ce019268b5b ::1
+Completed 304 
+
+
+Started 2015-12-12T05:27:45.113Z GET /topic/delete?topic_id=56640cdfd3b10ce019268b5b ::1
+Completed 302 
+
+
+Started 2015-12-12T05:27:45.142Z GET / ::1
+Completed 200 
