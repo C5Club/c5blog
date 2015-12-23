@@ -6,18 +6,19 @@
  */
 
 var Topic = require('../dao/topicDao');
+var Reply = require('../dao/replyDao');
 var config = require('../config');
 var Log = require('../config/logger');
 var validator = require('validator');
 var eventproxy = require('eventproxy');
 var tools = require('../config/tools');
 exports.showCreate = function (req, res) {
-    res.render('topic/create', {
-        title: '发表微博',
+    res.render('reply/create', {
+        title: '发表评论',
         user: req.session.user
     });
 }
-exports.showEdit = function (req, res, next) {
+exports.showReply = function (req, res, next) {
     var id = req.param('topic_id');
     Topic.getTopicById(id, function (err, topic) {
         if (err) {
@@ -40,9 +41,9 @@ exports.showEdit = function (req, res, next) {
 
 exports.create = function (req, res, next) {
     var user_id = req.body.user_id;
-    var title = req.body.title;
+    var topic_id = req.body.topic_id;
     var content = req.body.content;
-    Topic.newAndSave(user_id, title, content, function (err) {
+    Reply.newAndSave(topic_id, user_id, content, function (err) {
         if (err) {
             Log.error(err);
             return next(err);
@@ -51,26 +52,11 @@ exports.create = function (req, res, next) {
         }
     });
 };
-exports.edit = function (req, res, next) {
-    var id = req.body.topic_id;
-    var title = req.body.title;
-    var content = req.body.content;
-    var data = {
-        title: title,
-        content: content
-    };
-    Topic.update(id, data, function (err) {
-        if (err) {
-            return next(err);
-        } else {
-            res.redirect('/');
-        }
-    });
-};
+
 
 exports.delete = function (req, res, next) {
-    var id = req.body.topic_id;
-    Topic.delete(id, function (err, callback) {
+    var id = req.param('rid');
+    Reply.delete(id, function (err, callback) {
         if (err) {
             Log.error(err);
             next(err);

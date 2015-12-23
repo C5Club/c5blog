@@ -1,0 +1,15 @@
+<% include ../header.ejs %>
+<div class="row">
+    <a class="btn btn-primary" href='/topic/<%= topic._id %>/reply'>评论</a>
+    <a class="btn btn-primary" href='/topic/<%= topic._id %>/edit'>编辑</a>
+
+    <div class="span4">
+        <h3><%= topic.title %></h3>
+
+        <p>
+            <small><%= topic.create_at %></small>
+        </p>
+        <p><%= topic.content %></p>
+    </div>
+</div>
+<% include ../footer.ejs %>

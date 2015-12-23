@@ -17,7 +17,9 @@ exports.showUserSet = function (req, res) {
         res.redirect('/');
     } else {
         res.render('userset',
-            {user: req.session.user}
+            {
+                title: '用户设置',
+                user: req.session.user}
         )
     }
 };

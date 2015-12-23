@@ -23,11 +23,11 @@ var config = {
     port: 3000,
     // 邮箱配置
     mail_opts: {
-        host: 'smtp.qq.com',
-        port: 465,
+        host: 'smtp.163.com',
+        port: 25,
         auth: {
-            user: '915881127@qq.com',
-            pass: '88mm0201'
+            user: '13240105904@163.com',
+            pass: 'jsuvdddnodfvjfyv'
         }
     },
     // 文件上传配置

@@ -24,6 +24,7 @@
         "moment": "2.9.0",
         "node-uuid": "1.4.1",
         "nodemailer": "*",
+        "nodemailer-smtp-transport":"*",
         "response-time": "2.2.0",
         "utility": "1.0.0",
         "validator": "3.22.1"

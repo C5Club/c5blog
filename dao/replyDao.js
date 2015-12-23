@@ -5,36 +5,36 @@
  */
 var models = require('../models/db');
 var Topic = models.Topic;
-
-exports.newAndSave = function (user_id, title, content, callback) {
-    var topic = new Topic();
-    topic.user_id = user_id;
-    topic.title = title;
-    topic.content = content;
-    topic.save(callback);
+var Reply =models.Reply;
+exports.newAndSave = function (topic_id, user_id, content, callback) {
+    var reply = new Reply();
+    reply.topic_id = topic_id;
+    reply.user_id = user_id;
+    reply.content = content;
+    reply.save(callback);
 };
-exports.delete = function (topic_id, callback) {
+exports.delete = function (reply_id, callback) {
     // 删除状态改变
-    Topic.findOne({_id: topic_id}, function (err, topic) {
-        if (err || !topic) {
+    Reply.findOne({_id: reply_id}, function (err, topic) {
+        if (err || !reply) {
             return callback(err);
         }
-        topic.deleted = true;
-        topic.save(callback);
+        reply.deleted = true;
+        reply.save(callback);
     });
 
 
 };
 exports.update = function (id, data, callback) {
-    Topic.findByIdAndUpdate({_id: id}, {'$set': data}, callback);
+    Reply.findByIdAndUpdate({_id: id}, {'$set': data}, callback);
 };
 exports.getCountByQuery = function (query, callback) {
-    Topic.count(query, callback);
+    Reply.count(query, callback);
 };
 exports.getTopicById = function (id, data, callback) {
-    Topic.findOne({_id: id}, data, callback);
+    Reply.findOne({_id: id}, data, callback);
 };
-exports.getAllTopic = function (callback) {
-    Topic.find(callback);
+exports.getAllReply = function (callback) {
+    Reply.find(callback);
 
 }

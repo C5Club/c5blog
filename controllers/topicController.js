@@ -37,6 +37,25 @@ exports.showEdit = function (req, res, next) {
         }
     });
 };
+exports.showTopic = function (req, res, next) {
+    var id = req.param('tid');
+    Topic.getTopicById(id, function (err, topic) {
+        if (err) {
+            Log.log(err);
+            next(err);
+        } else {
+            if (!topic) {
+                res.redirect('/');
+            }
+            console.log('=========+' + topic);
+            res.render('topic/topic', {
+                title: '修改微博',
+                user: req.session.user,
+                topic: topic
+            });
+        }
+    });
+};
 
 exports.create = function (req, res, next) {
     var user_id = req.body.user_id;
@@ -69,7 +88,7 @@ exports.edit = function (req, res, next) {
 };
 
 exports.delete = function (req, res, next) {
-    var id = req.param('topic_id');
+    var id = req.param('tid');
     Topic.delete(id, function (err, callback) {
         if (err) {
             Log.error(err);

@@ -8,6 +8,8 @@ var config = require('../config');
 var user = require('../controllers/userController');
 var userSet = require('../controllers/userSetController');
 var topic = require('../controllers/topicController');
+var reply = require('../controllers/replyController');
+
 var router = express.Router();
 
 
@@ -30,11 +32,16 @@ router.get('/signout', user.signout);  // 登出
 // topic
 router.get('/topic/create', user.checkLogin, topic.showCreate);
 router.post('/topic/create', user.checkLogin, topic.create);
-router.get('/topic/edit', user.checkLogin, topic.showEdit);
-router.post('/topic/edit', user.checkLogin, topic.edit);
-router.get('/topic/delete', user.checkLogin, topic.delete);
+router.get('/topic/:tid/edit', user.checkLogin, topic.showEdit);
+router.post('/topic/:tid/edit', user.checkLogin, topic.edit);
 
-//router.get('/topic/:tid', topic.index);  // 显示某个话题
+router.get('/topic/:tid', user.checkLogin, topic.showTopic);
+router.get('/topic/:tid/delete', user.checkLogin, topic.delete);
+
+router.get('/topic/:tid/reply', user.checkLogin, reply.showCreate);
+router.post('/topic/:tid/reply', user.checkLogin, reply.create);
+
+
 //router.post('/topic/:tid/top', auth.adminRequired, topic.top);  // 将某话题置顶
 //router.post('/topic/:tid/good', auth.adminRequired, topic.good); // 将某话题加精
 //router.get('/topic/:tid/edit', auth.userRequired, topic.showEdit);  // 编辑某话题
