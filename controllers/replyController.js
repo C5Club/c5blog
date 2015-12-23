@@ -13,9 +13,23 @@ var validator = require('validator');
 var eventproxy = require('eventproxy');
 var tools = require('../config/tools');
 exports.showCreate = function (req, res) {
-    res.render('reply/create', {
-        title: '发表评论',
-        user: req.session.user
+    var id = req.param('tid');
+    Topic.getTopicById(id, function (err, topic) {
+        if (err) {
+            Log.log(err);
+            next(err);
+        } else {
+            if (topic) {
+                console.log('=========+' + topic);
+                res.render('reply/create', {
+                    title: '发表评论',
+                    user: req.session.user,
+                    topic: topic
+                });
+            } else {
+                res.redirect('/');
+            }
+        }
     });
 }
 exports.showReply = function (req, res, next) {
@@ -40,8 +54,8 @@ exports.showReply = function (req, res, next) {
 };
 
 exports.create = function (req, res, next) {
+    var topic_id = req.param('tid');
     var user_id = req.body.user_id;
-    var topic_id = req.body.topic_id;
     var content = req.body.content;
     Reply.newAndSave(topic_id, user_id, content, function (err) {
         if (err) {
@@ -53,6 +67,40 @@ exports.create = function (req, res, next) {
     });
 };
 
+exports.showEdit = function (req, res, next) {
+    var id = req.param('tid');
+    Topic.getTopicById(id, function (err, topic) {
+        if (err) {
+            Log.log(err);
+            next(err);
+        } else {
+            if (topic) {
+                console.log('=========+' + topic);
+                res.render('reply/edit', {
+                    title: '修改微博',
+                    user: req.session.user,
+                    topic: topic
+                });
+            } else {
+                res.redirect('/');
+            }
+        }
+    });
+};
+exports.edit = function (req, res, next) {
+    var id = req.param('rid');
+    var content = req.body.content;
+    var data = {
+        content: content
+    };
+    Reply.update(id, data, function (err) {
+        if (err) {
+            return next(err);
+        } else {
+            res.redirect('/');
+        }
+    });
+};
 
 exports.delete = function (req, res, next) {
     var id = req.param('rid');

@@ -32,14 +32,17 @@ router.get('/signout', user.signout);  // 登出
 // topic
 router.get('/topic/create', user.checkLogin, topic.showCreate);
 router.post('/topic/create', user.checkLogin, topic.create);
+router.get('/topic/:tid', user.checkLogin, topic.showTopic);
+
 router.get('/topic/:tid/edit', user.checkLogin, topic.showEdit);
 router.post('/topic/:tid/edit', user.checkLogin, topic.edit);
-
-router.get('/topic/:tid', user.checkLogin, topic.showTopic);
 router.get('/topic/:tid/delete', user.checkLogin, topic.delete);
-
+// reply
 router.get('/topic/:tid/reply', user.checkLogin, reply.showCreate);
 router.post('/topic/:tid/reply', user.checkLogin, reply.create);
+router.get('/reply/:rid/reply', user.checkLogin, reply.showEdit);
+router.post('/reply/:rid/reply', user.checkLogin, reply.edit);
+
 
 
 //router.post('/topic/:tid/top', auth.adminRequired, topic.top);  // 将某话题置顶

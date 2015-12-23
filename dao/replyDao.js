@@ -31,8 +31,8 @@ exports.update = function (id, data, callback) {
 exports.getCountByQuery = function (query, callback) {
     Reply.count(query, callback);
 };
-exports.getTopicById = function (id, data, callback) {
-    Reply.findOne({_id: id}, data, callback);
+exports.getReplyByTopic = function (id, data, callback) {
+    Reply.findOne({topic_id: id}, data, callback);
 };
 exports.getAllReply = function (callback) {
     Reply.find(callback);

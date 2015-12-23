@@ -18,7 +18,7 @@ exports.showCreate = function (req, res) {
     });
 }
 exports.showEdit = function (req, res, next) {
-    var id = req.param('topic_id');
+    var id = req.param('tid');
     Topic.getTopicById(id, function (err, topic) {
         if (err) {
             Log.log(err);
@@ -39,6 +39,7 @@ exports.showEdit = function (req, res, next) {
 };
 exports.showTopic = function (req, res, next) {
     var id = req.param('tid');
+    console.log('========='+id);
     Topic.getTopicById(id, function (err, topic) {
         if (err) {
             Log.log(err);
@@ -71,7 +72,7 @@ exports.create = function (req, res, next) {
     });
 };
 exports.edit = function (req, res, next) {
-    var id = req.body.topic_id;
+    var id = req.param('tid');
     var title = req.body.title;
     var content = req.body.content;
     var data = {
