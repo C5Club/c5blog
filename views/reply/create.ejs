@@ -1,0 +1,18 @@
+<% include ../header.ejs %>
+<form class="form-horizontal" method="post" action="/topic/<%= topic._id %>/reply">
+    <fieldset>
+        <legend>发表评论</legend>
+
+        <div class="control-group">
+            <label class="control-label" for="content">内容</label>
+
+            <div class="controls">
+                <input type="hidden" value="<%= user._id %>" name="user_id">
+                <textarea class="input-xlarge" id="content" name="content" rows="6"></textarea></div>
+        </div>
+        <div class="form-actions">
+            <button type="submit" class="btn btn-primary">发表</button>
+        </div>
+    </fieldset>
+</form>
+<% include ../footer.ejs %>
