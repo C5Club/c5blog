@@ -13,7 +13,8 @@ var UserSetSchema = new Schema({
     hobby: { type: String},
     school: { type: String},
     create_at: { type: Date, default: Date.now },
-    update_at: { type: Date, default: Date.now }
+    update_at: { type: Date, default: Date.now },
+    deleted: {type: Boolean, default: false}
 });
 
 UserSetSchema.plugin(BaseModel);

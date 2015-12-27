@@ -3,8 +3,8 @@
  * Date:2015/11/22.
  * Time:15:00.
  */
-var models  = require('../models/db');
-var User    = models.User;
+var models = require('../models/db');
+var User = models.User;
 
 /**
  * 根据用户名列表查找用户列表
@@ -73,6 +73,13 @@ exports.getUsersByIds = function (ids, callback) {
 };
 
 /**
+ * 获取所有用户信息
+ * @param callback
+ */
+exports.getAllUsers = function (callback) {
+    User.find({'deleted': false}, callback);
+};
+/**
  * 根据关键字，获取一组用户
  * Callback:
  * - err, 数据库异常
@@ -99,11 +106,11 @@ exports.getUserByNameAndKey = function (loginname, key, callback) {
 };
 
 exports.newAndSave = function (nick, loginName, password, email, callback) {
-    var user         = new User();
-    user.nick        = nick;
-    user.loginName   = loginName;
-    user.password    = password;
-    user.email       = email;
+    var user = new User();
+    user.nick = nick;
+    user.loginName = loginName;
+    user.password = password;
+    user.email = email;
     user.save(callback);
 };
 

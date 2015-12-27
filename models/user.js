@@ -8,8 +8,8 @@ var UserSchema = new Schema({
     password: { type: String },
     email: { type: String},
     create_at: { type: Date, default: Date.now },
-    update_at: { type: Date, default: Date.now }
-
+    update_at: { type: Date, default: Date.now },
+    deleted: {type: Boolean, default: false}
 });
 
 UserSchema.plugin(BaseModel);

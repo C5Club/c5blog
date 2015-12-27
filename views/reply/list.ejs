@@ -1,0 +1,17 @@
+<% if (replys != null){ %>
+<% replys.forEach(function(reply) {
+        if (reply) { %>
+<br>
+<div class="row-fluid">
+    <div class="span12">
+        <% if(userMap){ %>
+
+        <h4><%= userMap[reply.user_id] %>回复</h4>
+        <% } %>
+        <p><%= reply.content %></p>
+    </div>
+</div><!-- end row -->
+<% } %>
+<% }) %>
+</div>
+<% } %>

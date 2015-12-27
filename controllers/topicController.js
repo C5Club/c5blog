@@ -6,6 +6,8 @@
  */
 
 var Topic = require('../dao/topicDao');
+var Reply = require('../dao/replyDao');
+var User = require('../dao/userDao');
 var config = require('../config');
 var Log = require('../config/logger');
 var validator = require('validator');
@@ -39,22 +41,40 @@ exports.showEdit = function (req, res, next) {
 };
 exports.showTopic = function (req, res, next) {
     var id = req.param('tid');
-    console.log('========='+id);
     Topic.getTopicById(id, function (err, topic) {
         if (err) {
             Log.log(err);
             next(err);
-        } else {
-            if (!topic) {
-                res.redirect('/');
-            }
-            console.log('=========+' + topic);
-            res.render('topic/topic', {
-                title: '修改微博',
-                user: req.session.user,
-                topic: topic
-            });
         }
+        if (!topic) {
+            res.redirect('/');
+        }
+        User.getAllUsers(function (err, users) {
+            if (err)
+                return next(err);
+            if (users) {
+                var userMap = [];
+                for (var user in users) {
+                    userMap.push(user._id);
+                    userMap[user._id] = user.nick;
+                }
+                Reply.getReplyByTopic(id, function (err, replys) {
+                    if (err) {
+                        next(err);
+                        return;
+                    }
+                    res.render('topic/topic', {
+                        title: '修改微博',
+                        user: req.session.user,
+                        topic: topic,
+                        replys: replys || null,
+                        userMap: userMap
+                    });
+                })
+            } else
+                res.redirect('/');
+        });
+
     });
 };
 

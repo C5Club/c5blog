@@ -38,17 +38,16 @@ exports.showReply = function (req, res, next) {
         if (err) {
             Log.log(err);
             next(err);
+        }
+        if (topic) {
+            console.log('=========+' + topic);
+            res.render('topic/edit', {
+                title: '修改微博',
+                user: req.session.user,
+                topic: topic
+            });
         } else {
-            if (topic) {
-                console.log('=========+' + topic);
-                res.render('topic/edit', {
-                    title: '修改微博',
-                    user: req.session.user,
-                    topic: topic
-                });
-            } else {
-                res.redirect('/');
-            }
+            res.redirect('/');
         }
     });
 };
@@ -62,8 +61,9 @@ exports.create = function (req, res, next) {
             Log.error(err);
             return next(err);
         } else {
-            res.redirect('/');
+            res.redirect('/topic/' + topic_id);
         }
+
     });
 };
 

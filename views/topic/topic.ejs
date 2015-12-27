@@ -12,4 +12,7 @@
         <p><%= topic.content %></p>
     </div>
 </div>
+<% if(replys){ %>
+<% include ../reply/list.ejs %>
+<% } %>
 <% include ../footer.ejs %>

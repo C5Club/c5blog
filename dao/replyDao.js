@@ -5,7 +5,7 @@
  */
 var models = require('../models/db');
 var Topic = models.Topic;
-var Reply =models.Reply;
+var Reply = models.Reply;
 exports.newAndSave = function (topic_id, user_id, content, callback) {
     var reply = new Reply();
     reply.topic_id = topic_id;
@@ -15,7 +15,7 @@ exports.newAndSave = function (topic_id, user_id, content, callback) {
 };
 exports.delete = function (reply_id, callback) {
     // 删除状态改变
-    Reply.findOne({_id: reply_id}, function (err, topic) {
+    Reply.findOne({_id: reply_id}, function (err, reply) {
         if (err || !reply) {
             return callback(err);
         }
@@ -32,7 +32,7 @@ exports.getCountByQuery = function (query, callback) {
     Reply.count(query, callback);
 };
 exports.getReplyByTopic = function (id, data, callback) {
-    Reply.findOne({topic_id: id}, data, callback);
+    Reply.find({topic_id: id}, data, callback);
 };
 exports.getAllReply = function (callback) {
     Reply.find(callback);
