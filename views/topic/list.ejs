@@ -1,15 +1,22 @@
 <% topics.forEach(function(topic, index) {
-        if (topic) { %>
+        if (topic ) { %>
+<% if (index % 2 == 0){ %>
 <div class="row-fluid">
-    <div class="span12">
-        <h4><a href="/topic/<%= topic._id %>"><%= topic.title %></a></h4>
+    <% } %>
+    <div class="span6">
+        <h2><a href="/topic/<%= topic._id %>"><%= topic.title %></a></h2>
 
         <p>
             <small><%= topic.create_at %></small>
         </p>
         <p><%= topic.content %></p>
     </div>
-</div><!-- end row -->
+
+    <% if(index % 2 != 0 ){ %>
+</div>
+<% } %>
 <% } %>
 <% }) %>
-</div><!-- end row -->
+<% if(topics.length % 2 != 0 ){ %>
+</div>
+<% } %>

@@ -9,9 +9,6 @@ var Topic = require('../dao/topicDao');
 var Reply = require('../dao/replyDao');
 var config = require('../config');
 var Log = require('../config/logger');
-var validator = require('validator');
-var eventproxy = require('eventproxy');
-var tools = require('../config/tools');
 exports.showCreate = function (req, res) {
     var id = req.param('tid');
     Topic.getTopicById(id, function (err, topic) {
@@ -20,7 +17,6 @@ exports.showCreate = function (req, res) {
             next(err);
         } else {
             if (topic) {
-                console.log('=========+' + topic);
                 res.render('reply/create', {
                     title: '发表评论',
                     user: req.session.user,
@@ -56,7 +52,8 @@ exports.create = function (req, res, next) {
     var topic_id = req.param('tid');
     var user_id = req.body.user_id;
     var content = req.body.content;
-    Reply.newAndSave(topic_id, user_id, content, function (err) {
+    var nick = req.body.nick;
+    Reply.newAndSave(topic_id, user_id, nick, content, function (err) {
         if (err) {
             Log.error(err);
             return next(err);

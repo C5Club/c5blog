@@ -4,12 +4,7 @@
 <head>
     <title>Microblog <%= title %>></title>
     <link rel='stylesheet' href='/public/stylesheets/bootstrap.css'/>
-    <style type="text/css">
-        body {
-            padding-top: 60px;
-            padding-bottom: 40px;
-        }
-    </style>
+    <link rel='stylesheet' href='/public/stylesheets/style.css'/>
     <link href="/public/stylesheets/bootstrap-responsive.css" rel="stylesheet">
 </head>
 <body>
@@ -36,7 +31,7 @@
                         <a href="/signup">注册</a>
                     </li>
                     <% } else { %>
-                    <li><a href="/userset">用户设置</a></li>
+                    <li class="dropdown"><a href="/userset">用户设置</a></li>
                     <li><a href="/topic/create">发表文章</a></li>
                     <li><a href="/signout">登出</a></li>
                     <% } %>

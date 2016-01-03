@@ -27,7 +27,6 @@ exports.showEdit = function (req, res, next) {
             next(err);
         } else {
             if (topic) {
-                console.log('=========+' + topic);
                 res.render('topic/edit', {
                     title: '修改微博',
                     user: req.session.user,
@@ -53,11 +52,6 @@ exports.showTopic = function (req, res, next) {
             if (err)
                 return next(err);
             if (users) {
-                var userMap = [];
-                for (var user in users) {
-                    userMap.push(user._id);
-                    userMap[user._id] = user.nick;
-                }
                 Reply.getReplyByTopic(id, function (err, replys) {
                     if (err) {
                         next(err);
@@ -68,7 +62,7 @@ exports.showTopic = function (req, res, next) {
                         user: req.session.user,
                         topic: topic,
                         replys: replys || null,
-                        userMap: userMap
+                        users: users
                     });
                 })
             } else
@@ -120,4 +114,14 @@ exports.delete = function (req, res, next) {
         }
     });
 
+}
+function getUserNanme(users, replys) {
+    for (var i = 0; i < users.length; i++) {
+        for (var j = 0; j < replys.length; j++) {
+            if (users[i]._id == replys[j].user_id) {
+                delete replys[j].user_id;
+                replys[j].user_id = users[i].nick;
+            }
+        }
+    }
 }

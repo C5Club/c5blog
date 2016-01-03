@@ -1,9 +1,10 @@
 <% include ../header.ejs %>
 <div class="row">
     <a class="btn btn-primary" href='/topic/<%= topic._id %>/reply'>评论</a>
+    <%if(topic.user_id == user._id){%>
     <a class="btn btn-primary" href='/topic/<%= topic._id %>/edit'>编辑</a>
-
-    <div class="span4">
+    <%}%>
+    <div class="span8">
         <h3><%= topic.title %></h3>
 
         <p>

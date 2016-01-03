@@ -9721,3 +9721,1260 @@ Completed 304
 
 Started 2015-12-27T15:09:09.112Z GET /topic/5667094d80035b800978c112 ::1
 Completed 200 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T06:45:21.957Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T06:45:52.553Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T06:46:54.949Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T06:49:48.452Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T06:50:23.148Z GET /signin ::1
+Completed 200 
+
+
+Started 2016-01-03T06:50:25.891Z POST /signin ::1
+Completed 302 
+
+
+Started 2016-01-03T06:50:26.001Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T06:51:20.898Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T06:52:06.214Z GET /userset ::1
+Completed 200 
+
+
+Started 2016-01-03T06:52:08.920Z GET /topic/create ::1
+Completed 200 
+
+
+Started 2016-01-03T06:52:13.609Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T06:53:50.010Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T06:54:17.062Z GET /topic/56682541e368db8c05160969 ::1
+Completed 200 
+
+
+Started 2016-01-03T06:55:44.504Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T06:55:46.201Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T06:55:48.992Z GET /topic/56682541e368db8c05160969 ::1
+Completed 200 
+
+
+Started 2016-01-03T06:56:38.752Z GET /topic/56682541e368db8c05160969 ::1
+Completed 200 
+
+
+Started 2016-01-03T06:56:40.561Z GET /topic/56682541e368db8c05160969 ::1
+Completed 304 
+
+
+Started 2016-01-03T06:56:41.576Z GET /topic/56682541e368db8c05160969 ::1
+Completed 304 
+
+
+Started 2016-01-03T06:58:32.357Z GET /topic/56682541e368db8c05160969 ::1
+Completed 200 
+
+
+Started 2016-01-03T06:58:38.414Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T06:59:14.716Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T06:59:22.878Z GET /topic/create ::1
+Completed 200 
+
+
+Started 2016-01-03T06:59:32.227Z GET /userset ::1
+Completed 200 
+
+
+Started 2016-01-03T06:59:33.981Z GET /userset ::1
+Completed 304 
+
+
+Started 2016-01-03T06:59:35.221Z GET /userset ::1
+Completed 304 
+
+
+Started 2016-01-03T07:00:20.976Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T07:01:24.753Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T07:01:25.808Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T07:01:26.624Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T07:01:27.079Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T07:01:27.315Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T07:01:27.490Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T07:03:20.593Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T07:03:25.601Z GET /userset ::1
+Completed 304 
+
+
+Started 2016-01-03T07:03:27.674Z GET /topic/create ::1
+Completed 304 
+
+
+Started 2016-01-03T07:03:30.828Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T07:04:43.671Z GET /topic/5667094d80035b800978c112 ::1
+Completed 200 
+
+
+Started 2016-01-03T07:05:49.617Z GET /topic/5667094d80035b800978c112 ::1
+Completed 200 
+
+
+Started 2016-01-03T07:05:52.158Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T07:05:55.527Z GET /userset ::1
+Completed 304 
+
+
+Started 2016-01-03T07:05:57.521Z GET /topic/create ::1
+Completed 304 
+
+
+Started 2016-01-03T07:06:09.189Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T07:07:03.161Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T07:07:44.143Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T07:09:41.363Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T07:20:11.734Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T07:20:19.537Z GET /topic/create ::1
+Completed 304 
+
+
+Started 2016-01-03T07:20:32.177Z POST /topic/create ::1
+Completed 302 
+
+
+Started 2016-01-03T07:20:32.213Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T07:25:48.731Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T07:25:49.827Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T07:27:12.941Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T07:27:15.085Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T07:27:15.719Z GET / ::1
+
+
+Started 2016-01-03T07:27:15.727Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T07:27:15.899Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T07:27:15.925Z GET / ::1
+
+
+Started 2016-01-03T07:27:15.940Z GET / ::1
+
+
+Started 2016-01-03T07:27:15.951Z GET / ::1
+
+
+Started 2016-01-03T07:27:15.961Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T07:27:16.134Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T07:27:16.158Z GET / ::1
+
+
+Started 2016-01-03T07:27:16.164Z GET / ::1
+Completed 200 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T07:27:31.498Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T07:28:18.678Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T07:31:12.959Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T07:31:58.300Z GET / ::1
+Completed 500 
+
+
+Started 2016-01-03T07:32:14.590Z GET / ::1
+Completed 500 
+
+
+Started 2016-01-03T07:32:15.358Z GET / ::1
+Completed 500 
+
+
+Started 2016-01-03T07:32:19.907Z GET / ::1
+Completed 500 
+
+
+Started 2016-01-03T07:33:23.916Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T07:34:06.355Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T07:34:39.192Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T07:35:46.906Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T07:36:38.942Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T07:38:14.059Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T07:38:40.506Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T07:39:08.239Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T07:39:31.477Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T07:39:35.844Z GET /topic/create ::1
+Completed 200 
+
+
+Started 2016-01-03T07:39:39.519Z GET /userset ::1
+Completed 304 
+
+
+Started 2016-01-03T07:40:10.801Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T07:40:33.230Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T07:40:46.943Z GET /userset ::1
+Completed 304 
+
+
+Started 2016-01-03T07:40:48.578Z GET /topic/create ::1
+Completed 304 
+
+
+Started 2016-01-03T07:40:50.414Z GET /signout ::1
+Completed 302 
+
+
+Started 2016-01-03T07:40:50.429Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T07:40:53.695Z GET /signin ::1
+Completed 200 
+
+
+Started 2016-01-03T07:40:55.717Z POST /signin ::1
+Completed 302 
+
+
+Started 2016-01-03T07:40:55.757Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T07:41:31.360Z GET /userset ::1
+Completed 304 
+
+
+Started 2016-01-03T07:47:20.453Z GET /userset ::1
+Completed 200 
+
+
+Started 2016-01-03T07:47:59.975Z GET /userset ::1
+Completed 200 
+
+
+Started 2016-01-03T07:48:58.768Z GET /userset ::1
+Completed 200 
+
+
+Started 2016-01-03T07:49:06.137Z GET /userset ::1
+Completed 304 
+
+
+Started 2016-01-03T07:49:08.239Z GET /userset ::1
+Completed 304 
+
+
+Started 2016-01-03T07:49:09.319Z GET /topic/create ::1
+Completed 200 
+
+
+Started 2016-01-03T07:49:12.671Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T07:49:57.526Z GET /topic/56682541e368db8c05160969 ::1
+Completed 200 
+
+
+Started 2016-01-03T07:50:00.519Z GET /topic/56682541e368db8c05160969/reply ::1
+Completed 200 
+
+
+Started 2016-01-03T07:50:08.968Z POST /topic/56682541e368db8c05160969/reply ::1
+Completed 302 
+
+
+Started 2016-01-03T07:50:09.004Z GET /topic/56682541e368db8c05160969 ::1
+Completed 200 
+
+
+Started 2016-01-03T07:50:20.275Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T07:50:24.544Z GET /topic/56682541e368db8c05160969 ::1
+Completed 304 
+
+
+Started 2016-01-03T07:50:30.782Z GET /signout ::1
+Completed 302 
+
+
+Started 2016-01-03T07:50:30.789Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T07:50:37.394Z GET /signin ::1
+Completed 200 
+
+
+Started 2016-01-03T07:50:42.409Z POST /signin ::1
+Completed 302 
+
+
+Started 2016-01-03T07:50:42.435Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T07:50:46.408Z GET /topic/56682541e368db8c05160969 ::1
+Completed 304 
+
+
+Started 2016-01-03T07:50:50.839Z GET /topic/56682541e368db8c05160969/reply ::1
+Completed 200 
+
+
+Started 2016-01-03T07:50:59.046Z POST /topic/56682541e368db8c05160969/reply ::1
+Completed 302 
+
+
+Started 2016-01-03T07:50:59.067Z GET /topic/56682541e368db8c05160969 ::1
+Completed 200 
+
+
+Started 2016-01-03T07:51:18.156Z GET /topic/56682541e368db8c05160969/edit ::1
+Completed 200 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T08:02:56.659Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T08:02:59.248Z GET /topic/56682541e368db8c05160969 ::1
+Completed 200 
+
+
+Started 2016-01-03T08:03:03.834Z GET /userset ::1
+Completed 200 
+
+
+Started 2016-01-03T08:03:05.323Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T08:03:06.753Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T08:03:08.320Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T08:03:09.753Z GET /topic/5667094d80035b800978c112 ::1
+Completed 200 
+
+
+Started 2016-01-03T08:03:23.097Z GET /topic/create ::1
+Completed 200 
+
+
+Started 2016-01-03T08:03:38.538Z POST /topic/create ::1
+Completed 302 
+
+
+Started 2016-01-03T08:03:38.614Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T08:03:42.193Z GET /topic/5688d5daee6b2fd805de0481 ::1
+Completed 200 
+
+
+Started 2016-01-03T08:05:09.877Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T08:05:10.716Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T08:05:13.745Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T08:05:14.351Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T08:05:14.652Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T08:05:14.981Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T08:06:08.555Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T08:07:02.110Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T08:07:35.147Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T08:07:36.873Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T08:07:46.923Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T08:08:24.017Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T08:08:26.048Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T08:08:26.925Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T08:08:42.324Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T08:09:03.502Z GET /topic/566952c546177dac2bfbf58d ::1
+Completed 200 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T08:10:55.358Z GET /topic/566952c546177dac2bfbf58d ::1
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T08:11:35.760Z GET /topic/5688cbc08a1e721c18b680a0 ::1
+Completed 200 
+
+
+Started 2016-01-03T08:11:40.305Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T08:11:44.111Z GET /topic/5669357572325fa428348249 ::1
+Completed 500 
+
+
+Started 2016-01-03T08:13:00.897Z GET /topic/5669357572325fa428348249 ::1
+Completed 200 
+
+
+Started 2016-01-03T08:14:25.648Z GET /topic/5669357572325fa428348249 ::1
+Completed 200 
+
+
+Started 2016-01-03T08:15:09.860Z GET /topic/5669357572325fa428348249 ::1
+Completed 200 
+
+
+Started 2016-01-03T08:15:14.399Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T08:15:16.755Z GET /topic/5667094d80035b800978c112 ::1
+Completed 200 
+
+
+Started 2016-01-03T08:20:50.261Z GET /topic/5667094d80035b800978c112 ::1
+Completed 500 
+
+
+Started 2016-01-03T08:22:33.864Z GET /topic/5667094d80035b800978c112 ::1
+Completed 200 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T08:22:44.852Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T08:22:49.059Z GET /topic/5688d5daee6b2fd805de0481 ::1
+Completed 200 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T08:23:33.710Z GET /topic/5688d5daee6b2fd805de0481 ::1
+Completed 304 
+
+
+Started 2016-01-03T08:23:36.277Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T08:23:39.622Z GET /topic/5669357572325fa428348249 ::1
+Completed 200 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T08:25:16.513Z GET /topic/5669357572325fa428348249 ::1
+Completed 304 
+
+
+Started 2016-01-03T08:25:17.460Z GET /topic/5669357572325fa428348249 ::1
+Completed 304 
+
+
+Started 2016-01-03T08:25:17.770Z GET /topic/5669357572325fa428348249 ::1
+Completed 304 
+
+
+Started 2016-01-03T08:25:19.446Z GET /topic/5669357572325fa428348249 ::1
+Completed 200 
+
+
+Started 2016-01-03T08:25:19.781Z GET /favicon.ico ::1
+Completed 404 
+
+
+Started 2016-01-03T08:25:20.041Z GET /topic/5669357572325fa428348249 ::1
+Completed 200 
+
+
+Started 2016-01-03T08:25:20.348Z GET /favicon.ico ::1
+Completed 404 
+
+
+Started 2016-01-03T08:25:20.471Z GET /topic/5669357572325fa428348249 ::1
+Completed 200 
+
+
+Started 2016-01-03T08:25:20.810Z GET /favicon.ico ::1
+Completed 404 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T08:26:12.685Z GET /topic/5669357572325fa428348249 ::1
+Completed 200 
+
+
+Started 2016-01-03T08:26:13.417Z GET /favicon.ico ::1
+Completed 404 
+
+
+Started 2016-01-03T08:26:13.516Z GET /topic/5669357572325fa428348249 ::1
+Completed 200 
+
+
+Started 2016-01-03T08:26:14.093Z GET /favicon.ico ::1
+Completed 404 
+
+
+Started 2016-01-03T08:26:14.102Z GET /topic/5669357572325fa428348249 ::1
+Completed 200 
+
+
+Started 2016-01-03T08:26:14.622Z GET /topic/5669357572325fa428348249 ::1
+Completed 200 
+
+
+Started 2016-01-03T08:26:14.924Z GET /favicon.ico ::1
+Completed 404 
+
+
+Started 2016-01-03T08:27:43.103Z GET /topic/5669357572325fa428348249 ::1
+Completed 304 
+
+
+Started 2016-01-03T08:28:10.712Z GET /topic/5669357572325fa428348249 ::1
+Completed 500 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T08:28:44.749Z GET /topic/5669357572325fa428348249 ::1
+Completed 200 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T08:32:53.665Z GET /topic/5669357572325fa428348249 ::1
+Completed 304 
+
+
+Started 2016-01-03T08:32:54.597Z GET /topic/5669357572325fa428348249 ::1
+Completed 304 
+
+
+Started 2016-01-03T08:32:55.061Z GET /topic/5669357572325fa428348249 ::1
+
+
+Started 2016-01-03T08:32:55.101Z GET /topic/5669357572325fa428348249 ::1
+
+
+Started 2016-01-03T08:32:55.140Z GET /topic/5669357572325fa428348249 ::1
+
+
+Started 2016-01-03T08:32:55.156Z GET /topic/5669357572325fa428348249 ::1
+Completed 200 
+
+
+Started 2016-01-03T08:32:55.308Z GET /topic/5669357572325fa428348249 ::1
+Completed 304 
+
+
+Started 2016-01-03T08:32:55.410Z GET /topic/5669357572325fa428348249 ::1
+
+
+Started 2016-01-03T08:32:55.427Z GET /topic/5669357572325fa428348249 ::1
+Completed 200 
+
+
+Started 2016-01-03T08:32:55.535Z GET /topic/5669357572325fa428348249 ::1
+Completed 304 
+
+
+Started 2016-01-03T08:32:55.613Z GET /topic/5669357572325fa428348249 ::1
+
+
+Started 2016-01-03T08:32:55.625Z GET /topic/5669357572325fa428348249 ::1
+
+
+Started 2016-01-03T08:32:55.640Z GET /topic/5669357572325fa428348249 ::1
+
+
+Started 2016-01-03T08:32:55.646Z GET /topic/5669357572325fa428348249 ::1
+
+
+Started 2016-01-03T08:32:55.669Z GET /topic/5669357572325fa428348249 ::1
+
+
+Started 2016-01-03T08:32:55.692Z GET /topic/5669357572325fa428348249 ::1
+Completed 200 
+
+
+Started 2016-01-03T08:32:55.884Z GET /topic/5669357572325fa428348249 ::1
+
+
+Started 2016-01-03T08:32:55.901Z GET /topic/5669357572325fa428348249 ::1
+
+
+Started 2016-01-03T08:32:55.912Z GET /topic/5669357572325fa428348249 ::1
+
+
+Started 2016-01-03T08:32:55.925Z GET /topic/5669357572325fa428348249 ::1
+
+
+Started 2016-01-03T08:32:55.942Z GET /topic/5669357572325fa428348249 ::1
+
+
+Started 2016-01-03T08:32:55.975Z GET /topic/5669357572325fa428348249 ::1
+
+
+Started 2016-01-03T08:32:55.994Z GET /topic/5669357572325fa428348249 ::1
+Completed 200 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T08:34:28.434Z GET /topic/5669357572325fa428348249 ::1
+Completed 200 
+
+
+Started 2016-01-03T08:34:29.311Z GET /topic/5669357572325fa428348249 ::1
+Completed 304 
+
+
+Started 2016-01-03T08:34:29.796Z GET /topic/5669357572325fa428348249 ::1
+
+
+Started 2016-01-03T08:34:29.823Z GET /topic/5669357572325fa428348249 ::1
+Completed 200 
+
+
+Started 2016-01-03T08:34:29.869Z GET /topic/5669357572325fa428348249 ::1
+Completed 304 
+
+
+Started 2016-01-03T08:34:30.006Z GET /topic/5669357572325fa428348249 ::1
+Completed 304 
+
+
+Started 2016-01-03T08:34:30.107Z GET /topic/5669357572325fa428348249 ::1
+
+
+Started 2016-01-03T08:34:30.157Z GET /topic/5669357572325fa428348249 ::1
+
+
+Started 2016-01-03T08:34:30.183Z GET /topic/5669357572325fa428348249 ::1
+Completed 200 
+
+
+Started 2016-01-03T08:34:30.249Z GET /topic/5669357572325fa428348249 ::1
+
+
+Started 2016-01-03T08:34:30.275Z GET /topic/5669357572325fa428348249 ::1
+
+
+Started 2016-01-03T08:34:30.301Z GET /topic/5669357572325fa428348249 ::1
+
+
+Started 2016-01-03T08:34:30.326Z GET /topic/5669357572325fa428348249 ::1
+
+
+Started 2016-01-03T08:34:30.354Z GET /topic/5669357572325fa428348249 ::1
+Completed 200 
+
+
+Started 2016-01-03T08:34:30.394Z GET /topic/5669357572325fa428348249 ::1
+Completed 304 
+
+
+Started 2016-01-03T08:34:30.501Z GET /topic/5669357572325fa428348249 ::1
+Completed 304 
+
+
+Started 2016-01-03T08:34:30.610Z GET /topic/5669357572325fa428348249 ::1
+
+
+Started 2016-01-03T08:34:30.651Z GET /topic/5669357572325fa428348249 ::1
+Completed 200 
+
+
+Started 2016-01-03T08:35:02.428Z GET /topic/5669357572325fa428348249 ::1
+Completed 500 
+
+
+Started 2016-01-03T08:35:46.275Z GET /topic/5669357572325fa428348249 ::1
+Completed 500 
+
+
+Started 2016-01-03T08:35:47.029Z GET /topic/5669357572325fa428348249 ::1
+Completed 500 
+
+
+Started 2016-01-03T08:35:47.358Z GET /topic/5669357572325fa428348249 ::1
+Completed 500 
+
+
+Started 2016-01-03T08:35:47.602Z GET /topic/5669357572325fa428348249 ::1
+Completed 500 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T08:43:31.148Z GET /topic/5669357572325fa428348249 ::1
+Completed 200 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T08:43:55.842Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T08:44:00.251Z GET /topic/5688d5daee6b2fd805de0481 ::1
+Completed 304 
+
+
+Started 2016-01-03T08:44:05.602Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T08:44:09.382Z GET /topic/5669357572325fa428348249 ::1
+Completed 304 
+
+
+Started 2016-01-03T08:44:40.653Z GET /topic/5669357572325fa428348249 ::1
+Completed 304 
+
+
+Started 2016-01-03T08:44:41.581Z GET /topic/5669357572325fa428348249 ::1
+Completed 304 
+
+
+Started 2016-01-03T08:44:42.603Z GET /topic/5669357572325fa428348249 ::1
+Completed 304 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T08:45:05.524Z GET /topic/5669357572325fa428348249 ::1
+Completed 200 
+
+
+Started 2016-01-03T08:45:06.208Z GET /favicon.ico ::1
+Completed 404 
+
+
+Started 2016-01-03T08:45:39.105Z GET /topic/5669357572325fa428348249 ::1
+Completed 200 
+
+
+Started 2016-01-03T08:45:39.767Z GET /favicon.ico ::1
+Completed 404 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T08:45:53.287Z GET /topic/5669357572325fa428348249 ::1
+Completed 200 
+
+
+Started 2016-01-03T08:45:53.978Z GET /favicon.ico ::1
+Completed 404 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T08:47:04.074Z GET /topic/5669357572325fa428348249 ::1
+Completed 500 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T08:47:27.992Z GET /topic/5669357572325fa428348249 ::1
+Completed 500 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T08:47:59.425Z GET /topic/5669357572325fa428348249 ::1
+Completed 500 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T08:49:52.066Z GET /topic/5669357572325fa428348249 ::1
+Completed 200 
+
+
+Started 2016-01-03T08:50:23.202Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T08:50:26.072Z GET /topic/5688d5daee6b2fd805de0481 ::1
+Completed 304 
+
+
+Started 2016-01-03T08:50:38.422Z GET /topic/5688d5daee6b2fd805de0481/reply ::1
+Completed 200 
+
+
+Started 2016-01-03T08:50:50.027Z POST /topic/5688d5daee6b2fd805de0481/reply ::1
+Completed 302 
+
+
+Started 2016-01-03T08:50:50.071Z GET /topic/5688d5daee6b2fd805de0481 ::1
+Completed 200 
+
+
+Started 2016-01-03T08:50:55.967Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T08:50:58.735Z GET /topic/5688cbc08a1e721c18b680a0 ::1
+Completed 200 
+
+
+Started 2016-01-03T08:51:02.990Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T08:51:05.187Z GET /topic/5667094d80035b800978c112 ::1
+Completed 304 
+
+
+Started 2016-01-03T08:51:07.660Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T08:51:10.531Z GET /topic/5688d5daee6b2fd805de0481 ::1
+Completed 304 
+
+
+Started 2016-01-03T08:51:12.717Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T08:51:13.954Z GET /topic/create ::1
+Completed 200 
+
+
+Started 2016-01-03T08:51:27.965Z POST /topic/create ::1
+Completed 302 
+
+
+Started 2016-01-03T08:51:27.985Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T08:51:30.512Z GET /topic/5688e10fb1709b741026a61a ::1
+Completed 200 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T09:01:22.922Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T09:01:25.297Z GET /topic/5669357572325fa428348249 ::1
+Completed 200 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T09:02:24.546Z GET /topic/5669357572325fa428348249 ::1
+Completed 304 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T09:03:51.260Z GET /topic/5669357572325fa428348249 ::1
+Completed 200 
+
+
+Started 2016-01-03T09:03:51.964Z GET /favicon.ico ::1
+Completed 404 
+
+
+Started 2016-01-03T09:04:05.079Z GET /topic/5669357572325fa428348249 ::1
+Completed 200 
+
+
+Started 2016-01-03T09:04:05.711Z GET /favicon.ico ::1
+Completed 404 
+
+
+Started 2016-01-03T09:04:05.732Z GET /topic/5669357572325fa428348249 ::1
+Completed 200 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T09:05:35.308Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T09:05:38.002Z GET /topic/5669357572325fa428348249 ::1
+Completed 304 
+
+
+Started 2016-01-03T09:07:03.400Z GET /topic/5669357572325fa428348249 ::1
+Completed 304 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T09:09:40.331Z GET /topic/5669357572325fa428348249 ::1
+Completed 304 
+
+
+Started 2016-01-03T09:09:41.609Z GET /topic/5669357572325fa428348249 ::1
+Completed 304 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T09:10:56.383Z GET /topic/5669357572325fa428348249 ::1
+Completed 304 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T09:11:35.138Z GET /topic/5669357572325fa428348249 ::1
+
+
+Started 2016-01-03T09:13:21.415Z GET /topic/5669357572325fa428348249 ::1
+Completed 200 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T09:20:12.238Z GET /topic/5669357572325fa428348249 ::1
+Completed 304 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T09:22:11.344Z GET /topic/5669357572325fa428348249 ::1
+Completed 200 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T09:22:36.941Z GET /topic/5669357572325fa428348249 ::1
+Completed 304 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T09:24:43.198Z GET /topic/5669357572325fa428348249 ::1
+Completed 200 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T09:26:24.275Z GET /topic/5669357572325fa428348249 ::1
+Completed 304 
+
+
+Started 2016-01-03T09:26:25.756Z GET /topic/5669357572325fa428348249 ::1
+Completed 304 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T09:28:17.044Z GET /topic/5669357572325fa428348249 ::1
+Completed 200 
+
+
+Started 2016-01-03T09:28:17.759Z GET /favicon.ico ::1
+
+
+Started 2016-01-03T09:28:17.762Z GET /topic/5669357572325fa428348249 ::1
+Completed 404 
+
+
+Started 2016-01-03T09:28:17.776Z GET /favicon.ico ::1
+
+
+Started 2016-01-03T09:28:17.780Z GET /topic/5669357572325fa428348249 ::1
+Completed 404 
+
+
+Started 2016-01-03T09:28:17.791Z GET /favicon.ico ::1
+Completed 404 
+
+
+Started 2016-01-03T09:28:17.814Z GET /favicon.ico ::1
+Completed 404 
+Completed 200 
+
+
+Started 2016-01-03T09:28:45.652Z GET /topic/5669357572325fa428348249/reply ::1
+Completed 200 
+
+
+Started 2016-01-03T09:28:52.097Z POST /topic/5669357572325fa428348249/reply ::1
+Completed 302 
+
+
+Started 2016-01-03T09:28:52.174Z GET /topic/5669357572325fa428348249 ::1
+Completed 200 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T09:30:43.404Z GET /topic/5669357572325fa428348249 ::1
+Completed 304 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T09:35:31.804Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T09:35:35.380Z GET /topic/5688d5daee6b2fd805de0481 ::1
+Completed 200 
+
+
+Started 2016-01-03T09:35:37.803Z GET /topic/5688d5daee6b2fd805de0481/reply ::1
+Completed 200 
+
+
+Started 2016-01-03T09:35:42.654Z POST /topic/5688d5daee6b2fd805de0481/reply ::1
+Completed 302 
+
+
+Started 2016-01-03T09:35:42.731Z GET /topic/5688d5daee6b2fd805de0481 ::1
+Completed 200 
+
+
+Started 2016-01-03T09:36:20.659Z GET /topic/5688d5daee6b2fd805de0481 ::1
+Completed 200 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T09:38:30.145Z GET /topic/5688d5daee6b2fd805de0481 ::1
+Completed 304 
+
+
+Started 2016-01-03T09:38:31.999Z GET /topic/5688d5daee6b2fd805de0481 ::1
+Completed 304 
+
+
+Started 2016-01-03T09:38:34.498Z GET /userset ::1
+Completed 304 
+
+
+Started 2016-01-03T09:38:36.074Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T09:38:37.431Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T09:38:39.757Z GET /topic/5667094d80035b800978c112 ::1
+Completed 200 
+
+
+Started 2016-01-03T09:38:42.560Z GET / ::1
+Completed 304 
+
+
+Started 2016-01-03T09:38:45.100Z GET /topic/5688d5daee6b2fd805de0481 ::1
+Completed 304 
+
+
+Started 2016-01-03T09:40:04.356Z GET /signout ::1
+Completed 302 
+
+
+Started 2016-01-03T09:40:04.371Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T09:40:06.551Z GET /signin ::1
+Completed 200 
+
+
+Started 2016-01-03T09:40:11.493Z POST /signin ::1
+Completed 302 
+
+
+Started 2016-01-03T09:40:11.532Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T09:40:22.832Z GET /topic/5688cbc08a1e721c18b680a0 ::1
+Completed 200 
+
+
+Started 2016-01-03T09:40:28.562Z GET /topic/5688cbc08a1e721c18b680a0/reply ::1
+Completed 200 
+
+
+Started 2016-01-03T09:40:36.206Z POST /topic/5688cbc08a1e721c18b680a0/reply ::1
+Completed 302 
+
+
+Started 2016-01-03T09:40:36.246Z GET /topic/5688cbc08a1e721c18b680a0 ::1
+Completed 200 

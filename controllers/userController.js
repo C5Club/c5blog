@@ -147,7 +147,6 @@ exports.login = function (req, res, next) {
             return ep.emit('login_error');
         }
         req.session.user = user;
-        console.log(req.session);
         req.flash('success', '登入成功');
         res.redirect('/');
     });
