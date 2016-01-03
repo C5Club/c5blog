@@ -6,7 +6,6 @@
 var UserSet = require('../dao/userSetDao');
 var config = require('../config');
 var validator = require('validator');
-var eventproxy = require('eventproxy');
 var Busboy = require('busboy');
 var fs = require('fs');
 var path = require('path');
@@ -19,7 +18,8 @@ exports.showUserSet = function (req, res) {
         res.render('userset',
             {
                 title: '用户设置',
-                user: req.session.user}
+                user: req.session.user
+            }
         )
     }
 };
@@ -43,8 +43,6 @@ exports.userSet = function (req, res, next) {
         if (fieldname == 'hobby')
             hobby = validator.trim(inspect(val));
         user_id = req.session.user._id.toString();
-        console.log(user_id.length + '========')
-        console.log(user_id + '========');
     });
     busboy.on('finish', function () {
         UserSet.newAndSave(user_id, photo, hobby, school, function (err) {

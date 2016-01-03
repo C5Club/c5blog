@@ -10978,3 +10978,44 @@ Completed 302
 
 Started 2016-01-03T09:40:36.246Z GET /topic/5688cbc08a1e721c18b680a0 ::1
 Completed 200 
+You can debug your app with http://localhost:3000
+
+
+Started 2016-01-03T09:42:35.656Z GET / ::ffff:127.0.0.1
+Completed 200 
+
+
+Started 2016-01-03T09:42:40.246Z GET /topic/create ::1
+Completed 200 
+
+
+Started 2016-01-03T09:42:42.187Z GET /signout ::1
+Completed 302 
+
+
+Started 2016-01-03T09:42:42.200Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T09:42:43.745Z GET /signin ::1
+Completed 200 
+
+
+Started 2016-01-03T09:42:45.740Z POST /signin ::1
+Completed 302 
+
+
+Started 2016-01-03T09:42:45.776Z GET / ::1
+Completed 200 
+
+
+Started 2016-01-03T09:42:47.384Z GET /userset ::1
+Completed 304 
+
+
+Started 2016-01-03T09:43:07.965Z POST /userset ::1
+Completed 302 
+
+
+Started 2016-01-03T09:43:08.009Z GET / ::1
+Completed 304 
