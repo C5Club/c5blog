@@ -1,11 +1,10 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-    <title>Microblog <%= title %>></title>
+    <title>Microblog <%= title %></title>
     <link rel='stylesheet' href='/public/stylesheets/bootstrap.css'/>
     <link rel='stylesheet' href='/public/stylesheets/style.css'/>
     <link href="/public/stylesheets/bootstrap-responsive.css" rel="stylesheet">
+
 </head>
 <body>
 <div class="navbar navbar-fixed-top">
@@ -20,7 +19,7 @@
 
             <div class="nav-collapse">
                 <ul class="nav">
-                    <li class="active">
+                    <li>
                         <a href="/">首页</a>
                     </li>
                     <% if(!user) { %>
@@ -31,8 +30,20 @@
                         <a href="/signup">注册</a>
                     </li>
                     <% } else { %>
-                    <li class="dropdown"><a href="/userset">用户设置</a></li>
+                    <li><a href="/userset">用户设置</a></li>
                     <li><a href="/topic/create">发表文章</a></li>
+                    <!--有消息的话，消息字体变色，点击下拉出现消息-->
+                    <li class="dropdown">
+                        <input type="hidden" value="<%= user._id %>" id="userId"/>
+                        <a class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" data-target="#"
+                           href="#" id="msgNum">
+                            消息
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel" id="message">
+
+                        </ul>
+                    </li>
                     <li><a href="/signout">登出</a></li>
                     <% } %>
                 </ul>

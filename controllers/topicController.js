@@ -115,13 +115,3 @@ exports.delete = function (req, res, next) {
     });
 
 }
-function getUserNanme(users, replys) {
-    for (var i = 0; i < users.length; i++) {
-        for (var j = 0; j < replys.length; j++) {
-            if (users[i]._id == replys[j].user_id) {
-                delete replys[j].user_id;
-                replys[j].user_id = users[i].nick;
-            }
-        }
-    }
-}

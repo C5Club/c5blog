@@ -15,9 +15,11 @@ require('./user');
 require('./userSet');
 require('./topic');
 require('./reply');
+require('./userNotify');
 
 exports.User = mongoose.model('User');
 exports.UserSet = mongoose.model('UserSet');
 exports.Topic = mongoose.model('Topic');
 exports.Reply = mongoose.model('Reply');
+exports.UserNotify = mongoose.model('UserNotify');
 

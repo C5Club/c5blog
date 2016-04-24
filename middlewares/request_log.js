@@ -1,6 +1,6 @@
 var logger = require('../config/logger');
 
-module.exports = function (req, res, next) {
+module.exports = function(req, res, next) {
     // Assets do not out log.
     if (exports.ignore.test(req.url)) {
         next();
@@ -8,12 +8,11 @@ module.exports = function (req, res, next) {
     }
 
     var t = new Date();
-    logger.log('\n\nStarted', t.toISOString(), req.method, req.url, req.ip);
+    logger.request.log('\n\nStarted', t.toISOString(), req.method, req.url, req.ip);
 
-    res.on('finish', function () {
+    res.on('finish', function() {
         var duration = ((new Date()) - t);
-
-        logger.log('Completed', res.statusCode, ('(' + duration + 'ms)').green);
+        logger.request.log('Completed', res.statusCode, ('(' + duration + 'ms)'));
     });
     next();
 };

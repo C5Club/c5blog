@@ -14,11 +14,15 @@ var User = models.User;
  * @param {Array} names 用户名列表
  * @param {Function} callback 回调函数
  */
-exports.getUsersByNames = function (names, callback) {
+exports.getUsersByNames = function(names, callback) {
     if (names.length === 0) {
         return callback(null, []);
     }
-    User.find({ loginname: { $in: names } }, callback);
+    User.find({
+        loginname: {
+            $in: names
+        }
+    }, callback);
 };
 
 /**
@@ -29,8 +33,10 @@ exports.getUsersByNames = function (names, callback) {
  * @param {String} loginName 登录名
  * @param {Function} callback 回调函数
  */
-exports.getUserByLoginName = function (loginName, callback) {
-    User.findOne({'loginName': loginName}, callback);
+exports.getUserByLoginName = function(loginName, callback) {
+    User.findOne({
+        'loginName': loginName
+    }, callback);
 };
 
 /**
@@ -41,11 +47,13 @@ exports.getUserByLoginName = function (loginName, callback) {
  * @param {String} id 用户ID
  * @param {Function} callback 回调函数
  */
-exports.getUserById = function (id, callback) {
+exports.getUserById = function(id, callback) {
     if (!id) {
         return callback();
     }
-    User.findOne({_id: id}, callback);
+    User.findOne({
+        _id: id
+    }, callback);
 };
 
 /**
@@ -56,8 +64,10 @@ exports.getUserById = function (id, callback) {
  * @param {String} email 邮箱地址
  * @param {Function} callback 回调函数
  */
-exports.getUserByMail = function (email, callback) {
-    User.findOne({email: email}, callback);
+exports.getUserByMail = function(email, callback) {
+    User.findOne({
+        email: email
+    }, callback);
 };
 
 /**
@@ -68,16 +78,20 @@ exports.getUserByMail = function (email, callback) {
  * @param {Array} ids 用户ID列表
  * @param {Function} callback 回调函数
  */
-exports.getUsersByIds = function (ids, callback) {
-    User.find({'_id': {'$in': ids}}, callback);
+exports.getUsersByIds = function(ids, callback) {
+    User.find({
+        '_id': {
+            '$in': ids
+        }
+    }, callback);
 };
 
 /**
  * 获取所有用户信息
  * @param callback
  */
-exports.getAllUsers = function (callback) {
-    User.find({'deleted': false}, callback);
+exports.getAllUsers = function(callback) {
+    User.find({}, callback);
 };
 /**
  * 根据关键字，获取一组用户
@@ -88,7 +102,7 @@ exports.getAllUsers = function (callback) {
  * @param {Object} opt 选项
  * @param {Function} callback 回调函数
  */
-exports.getUsersByQuery = function (query, opt, callback) {
+exports.getUsersByQuery = function(query, opt, callback) {
     User.find(query, '', opt, callback);
 };
 
@@ -101,16 +115,18 @@ exports.getUsersByQuery = function (query, opt, callback) {
  * @param {String} key 激活码
  * @param {Function} callback 回调函数
  */
-exports.getUserByNameAndKey = function (loginname, key, callback) {
-    User.findOne({loginname: loginname, retrieve_key: key}, callback);
+exports.getUserByNameAndKey = function(loginname, key, callback) {
+    User.findOne({
+        loginname: loginname,
+        retrieve_key: key
+    }, callback);
 };
 
-exports.newAndSave = function (nick, loginName, password, email, callback) {
+exports.newAndSave = function(nick, loginName, password, email, callback) {
     var user = new User();
-    user.nick = nick;
     user.loginName = loginName;
     user.password = password;
+    user.nick = nick;
     user.email = email;
     user.save(callback);
 };
-

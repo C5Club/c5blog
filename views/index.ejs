@@ -41,8 +41,21 @@
             使其成为一款个性十足的开源输入法。
         </p>
     </div>
+    <div class="span6">
+        <a><h2>输入法</h2></a>
+
+        <p>
+            输入法引擎 / Rime Input Method Engine 取意历史上通行的中州韵，
+            愿写就一部汇集音韵学智慧的输入法经典之作。
+            项目网站设在 http://code.google.com/p/rimeime/
+            创造应用价值是一方面，更要坚持对好技术的追求，希望能写出灵动而易于扩展的代码，
+            使其成为一款个性十足的开源输入法。
+        </p>
+    </div>
 </div>
 <% if(user) { %>
-<% include ./topic/list.ejs %>
+    <%if(topics!=null&&topics.length>0){%>
+        <% include ./topic/list.ejs %>
+    <%}%>
 <% } %>
 <% include footer.ejs %>

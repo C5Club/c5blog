@@ -20,7 +20,7 @@ exports.index = function (req, res) {
         res.render('index', {
             title: '首页',
             user: req.session.user,
-            topics: topics
+            topics: topics == undefined ? {} : topics
         });
     });
 
@@ -49,7 +49,11 @@ exports.signup = function (req, res, next) {
     ep.fail(next);
     ep.on('prop_err', function (msg) {
         res.status(422);
-        res.render('signup', {error: msg, loginName: loginName, email: email});
+        res.render('signup', {
+            error: msg,
+            loginName: loginName,
+            email: email
+        });
     })
     // 验证数据的正确性
     if ([loginName, password, rePass, email].some(function (item) {
@@ -72,10 +76,16 @@ exports.signup = function (req, res, next) {
         return ep.emit('prop_err', '两次密码输入不一致。');
     }
     // END 验证信息的正确性
-    User.getUsersByQuery({'$or': [
-        {'loginName': loginName},
-        {'email': email}
-    ]}, {}, function (err, users) {
+    User.getUsersByQuery({
+        '$or': [
+            {
+                'loginName': loginName
+            },
+            {
+                'email': email
+            }
+        ]
+    }, {}, function (err, users) {
         if (err) {
             return next(err);
         }
@@ -125,14 +135,20 @@ exports.login = function (req, res, next) {
 
     if (!loginName || !pass) {
         res.status(422);
-        return res.render('index', { error: '信息不完整。' });
+        return res.render('index', {
+            title: "首页",
+            error: '信息不完整。'
+        });
     }
 
     var getUser = User.getUserByLoginName;
 
     ep.on('login_error', function (login_error) {
         res.status(403);
-        res.render('index', { error: '用户名或密码错误' });
+        res.render('index', {
+            title: '首页',
+            error: '用户名或密码错误'
+        });
     });
 
     getUser(loginName, function (err, user) {
@@ -154,7 +170,9 @@ exports.login = function (req, res, next) {
 
 exports.signout = function (req, res) {
     req.session.destroy();
-    res.clearCookie(config.auth_cookie_name, { path: '/' });
+    res.clearCookie(config.auth_cookie_name, {
+        path: '/'
+    });
     res.redirect('/');
 };
 exports.checkLogin = function (req, res, next) {
@@ -165,6 +183,5 @@ exports.checkLogin = function (req, res, next) {
             title: '首页',
             user: req.session.user | null
         });
-
     }
 }

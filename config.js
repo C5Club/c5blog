@@ -7,8 +7,8 @@ var path = require('path');
 var config = {
     name: 'c5blog',
     // mongodb 配置
-    db: 'mongodb://127.0.0.1/app',
-    dbName: 'app',
+    db: 'mongodb://127.0.0.1/blog',
+    dbName: 'blog',
     debug: true,
     // redis 配置，默认是本地
     redis_host: '127.0.0.1',
@@ -29,14 +29,6 @@ var config = {
             user: '13240105904@163.com',
             pass: 'jsuvdddnodfvjfyv'
         }
-    },
-    // 文件上传配置
-    upload: {
-        path: path.join(__dirname, 'public/upload/'),
-        url: '/public/upload/'
     }
-}
-if (process.env.NODE_ENV === 'test') {
-    config.db = 'mongodb://127.0.0.1/node_club_test';
 }
 module.exports = config;
